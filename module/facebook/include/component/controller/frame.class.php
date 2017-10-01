@@ -20,7 +20,8 @@ class Facebook_Component_Controller_Frame extends Phpfox_Component
 	 */
 	public function process()
 	{
-		header('Location: https://graph.facebook.com/oauth/authorize?client_id=' . Phpfox::getParam('facebook.facebook_app_id') . '&redirect_uri=' . Phpfox::getParam('core.path') . 'index.php?facebook-process-login=true&scope=publish_stream,email,user_birthday');		
+		header('Location: https://graph.facebook.com/oauth/authorize?client_id=' . Phpfox::getParam('facebook.facebook_app_id') . '&redirect_uri=' . Phpfox::getParam('core.path') . 'index.php?facebook-process-login=true&scope=publish_stream,email,user_birthday');	
+		// them cai gi vao day	
 	}
 	
 	/**
