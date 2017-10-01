@@ -34,6 +34,7 @@ define('PHPFOX_DS', DIRECTORY_SEPARATOR);
  */
 define('PHPFOX_DIR', dirname(__FILE__) . PHPFOX_DS);
 
+// Noi chung la thay doi nhieu
 define('PHPFOX_START_TIME', array_sum(explode(' ', microtime())));
 
 // Require phpFox Init
