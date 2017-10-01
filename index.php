@@ -27,7 +27,7 @@ define('PHPFOX', true);
  *
  */
 define('PHPFOX_DS', DIRECTORY_SEPARATOR);
-
+// Huan thay doi
 /**
  * phpFox Root Directory
  *
