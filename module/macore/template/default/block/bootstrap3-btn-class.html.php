@@ -1,0 +1,1 @@
+{if Phpfox::getParam('macore.mac_bootstrap_feed_link_class')}btn-link{else}btn-primary{/if}

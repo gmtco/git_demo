@@ -1,0 +1,272 @@
+/*
+.mac-cover-wrap {
+width:100%
+}
+#js_photo_cover_position {
+margin-top:50px
+}
+.cover_photo_link {
+height:400px
+}
+.mac-cover-gradient {
+background-image:url(../image/map_gradient.png);
+background-position:left bottom;
+background-repeat:repeat-x;
+height:400px
+}
+*/
+
+#js_is_user_profile .profile_image .p_4 {
+background: #000;
+    right: 52px;
+    top: -84px;
+}
+
+.profile_image .profile_image_holder a img {
+width:100%;
+height:auto
+}
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_image_holder {
+height:120px;
+width:120px;
+left:0;
+top:-160px; /* before 200 */
+margin-bottom:6px;
+position:absolute;
+text-align:center
+}
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_image_holder a img {
+height:110px;
+width:110px;
+border-radius:120px
+}
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 {
+width:auto!important;
+position:absolute;
+left:-50px;
+top:-145px; /* before 185 */
+}
+
+
+
+body.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 {
+position:absolute;
+left:-50px;
+top:-85px;  /* before 125 */
+}
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 a,
+body.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 a {
+color:#fff;
+text-shadow:0 1px 0 rgba(0,0,0,0.7)
+}
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 a:hover
+, body.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 a:hover {
+color:#000;
+text-shadow:none;
+text-decoration: none;
+}
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+position:absolute;
+left:-50px;
+
+top:-125px; /* 165 */
+
+text-shadow:0 1px 0 rgba(0,0,0,0.7);
+padding:2px 5px
+}
+
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 {
+position:absolute;
+right:0;
+top:-160px
+}
+body.page-profile-index.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2,
+body.page-pages-view.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 {
+right:-280px
+}
+body.page-no-timeline #js_is_user_profile .profile_breadcrumb {
+display:none
+}
+#js_is_user_profile .profile_header #section_menu2 {
+position:absolute;
+right:0
+}
+#js_is_user_profile #section_menu2 {
+bottom:5px;
+top:20px
+}
+
+
+/*
+body.page-friend-profile.page-no-timeline #js_is_user_profile .profile_image_holder
+{
+top: -280px;
+}
+body.page-friend-profile.page-no-timeline #js_is_user_profile .profile_header_inner h1 {
+left: -50px;
+top: -265px;
+}
+body.page-friend-profile.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+left: -56px;
+top: -245px;
+}
+*/
+
+
+
+/* fix  */
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_image_holder 
+{
+top:-160px;
+}
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_header_inner h1 
+{
+top:-145px
+}
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_header_inner .profile_info {
+top:-125px;
+}
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_header_inner #section_menu2 {
+top:-120px
+}
+
+
+
+
+/* end */
+
+/* fix after adding sticky footer */
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info
+{
+top: -205px;
+}
+body.page-is-page-profile.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 
+{
+top: -225px;
+}
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_image_holder
+{
+top: -210px;
+} 
+/* end sticky footer */
+
+#js_is_user_profile .profile_header{
+	min-height: 0!important
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+#js_is_user_profile .profile_image_holder {
+height:100px;
+width:100px;
+left:20px;
+top:-160px
+}
+}
+
+@media (max-width: 1023px) {
+body.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 {
+right:0;
+top:0
+}
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1,
+body.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+position:static;
+left:auto;
+right:auto;
+top:auto;
+bottom:auto
+}
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1,
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 a,
+body.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+color:#222;
+text-shadow:none
+}
+}
+
+/*
+@media (min-width: 768px) {
+.mac-cover-wrap {
+height:400px
+}
+}
+
+@media (min-width: 1200px) {
+.mac-cover-wrap {
+height:400px
+}
+}
+
+@media (max-width: 1199px) {
+.mac-cover-gradient {
+display:none!important
+}
+}
+*/
+
+@media (max-width: 767px) {
+
+#js_is_user_profile .profile_image .p_4 {
+
+right: auto;
+left:10px;
+}
+
+
+#js_is_user_profile .profile_image_holder {
+height:100px;
+width:100px;
+left:20px;
+top:-160px
+}
+
+/*
+.mac-cover-wrap {
+height:400px
+}
+*/
+
+.mac-user-profile-pic {
+margin-left:-30px;
+margin-right:-30px;
+margin-top:-30px
+}
+
+body.page-is-page-profile.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 {
+top:-20px;
+left:150px;
+}
+body.page-is-page-profile.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 a{
+color:#222!important;
+}
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_image_holder {
+top:-110px;
+}
+
+/*
+#js_photo_cover_position {
+top:0!important
+}
+*/
+}

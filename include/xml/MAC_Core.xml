@@ -1,0 +1,17 @@
+<product>
+	<data>
+		<product_id>MAC_Core</product_id>
+		<is_core>0</is_core>
+		<title>Macagoraga Core</title>
+		<description>Macagoraga Product</description>
+		<version>11.0</version>
+		<latest_version></latest_version>
+		<last_check>1424673955</last_check>
+		<is_active>1</is_active>
+		<url>http://macagoraga.com</url>
+		<url_version_check>http://macagoraga.com/version.php</url_version_check>
+	</data>
+	<modules>
+		<module_id>macore</module_id>
+	</modules>
+</product>

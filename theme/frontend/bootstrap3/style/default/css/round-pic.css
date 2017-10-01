@@ -1,0 +1,4 @@
+.mac-round-pic,.activity_feed_image a img,#header_menu_user_image a img,.js_shoutbox_messages.media .media-object,.js_feed_view_more_entry_holder div.media span a img,.mac-forum-list-box a img,.mac-forum-post-box a img,.like_count_link_holder a img,.js_box_image_holder_full #js_photo_view_box_title .row_title_image a img,.js_box_content .label_flow a .image_online_status,#js_event_browse_guest_list .go_left a img, .media .pull-left img{border-radius:200px}
+#js_event_browse_guest_list .go_left a img{height:50px}
+.mac-round-pic-32,#js_block_border_log_login .block_listing_inline li a img,.comment_mini_image a img,ul.block_listing li a img,.block_listing_inline ul li a img,.timeline_feed_row .timeline_holder.js_parent_feed_entry div div a img.image_online_status{border-radius:32px}
+.mac-round-pic-16{border-radius:16px}

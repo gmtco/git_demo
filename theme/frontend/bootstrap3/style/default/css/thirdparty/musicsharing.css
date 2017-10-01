@@ -1,0 +1,57 @@
+
+
+
+/* music sharing addon */
+div#mac-content .list .item .right-col h2
+{
+    border:none;    
+}
+
+div#mac-content div.menu ul li
+{
+    width: 49%;
+    float:left
+}
+
+div#mac-content div.menu ul li.js_block_click_lis_cache
+{
+    width: 10px;
+    vertical-align: middle;
+}
+
+div#mac-content div.menu ul li a, div#content div.menu ul li a:hover
+{
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    margin: 0;
+    padding:10px 0;
+}
+#js_block_border_musicsharing_newsongs-front-end li.first a
+, #js_block_border_musicsharing_newsongs-front-end li.last a
+, #js_block_border_musicsharing_newplaylists li.first a
+, #js_block_border_musicsharing_newplaylists li.last a
+{
+
+background-repeat:no-repeat
+
+}
+
+.lof-slidecontent
+, .lof-main-outer
+, .lof-main-wapper 
+, .lof-main-wapper li
+, .lof-main-item-desc
+{
+width:100% !important
+}
+.lof-main-item-desc
+{
+height:70px !important
+}
+
+body #js_controller_musicsharing_index #mac-left .panel .panel-body .list-group
+, body #js_controller_musicsharing_index #mac-right .panel .panel-body .list-group 
+{
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}

@@ -1,0 +1,11 @@
+.cfsearch_result_item_display_img{width:36px!important}
+#cfsearch_results_full_view{border:0;box-shadow:none}
+#cfsearch_results_full_view.has_tmp_view_search{border:1px solid #ccc;box-shadow:3px 3px 3px #CFCFCF}
+.cfsearch_result_item_display_content{color:#222}
+
+.js_temp_friend_search_form{
+	display:none!important;
+}
+#cfsearch_results_full_view{
+	margin-top:30px;
+}

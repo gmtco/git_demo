@@ -1,0 +1,221 @@
+<module>
+	<data>
+		<module_id>macore</module_id>
+		<product_id>MAC_Core</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:1:{s:24:"macore.admin_menu_manage";a:1:{s:3:"url";a:2:{i:0;s:6:"macore";i:1;s:5:"index";}}}]]></menu>
+		<phrase_var_name>module_macore</phrase_var_name>
+	</data>
+	<settings>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="google_recaptcha_site_key" phrase_var_name="setting_google_recaptcha_site_key" ordering="1" version_id="3.7.6"></setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="google_recaptcha_secret_key" phrase_var_name="setting_google_recaptcha_secret_key" ordering="1" version_id="3.7.6"></setting>
+		
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_userpic_position_left" phrase_var_name="setting_mac_bootstrap_userpic_position_left" ordering="1" version_id="3.7.6">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="bootstrap3_dd_onhover" phrase_var_name="setting_bootstrap3_dd_onhover" ordering="1" version_id="3.7.3">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="bootstrap_landing_type" phrase_var_name="setting_bootstrap_landing_type" ordering="1" version_id="3.7.4">registration</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_feed_link_class" phrase_var_name="setting_mac_bootstrap_feed_link_class" ordering="1" version_id="3.7.4">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_cover_type" phrase_var_name="setting_mac_bootstrap_cover_type" ordering="1" version_id="3.7.4">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="bootstrap_disable_switch_view" phrase_var_name="setting_bootstrap_disable_switch_view" ordering="1" version_id="3.7.4">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="mac_bootstrap_navbar_position" phrase_var_name="setting_mac_bootstrap_navbar_position" ordering="1" version_id="3.7.4">navbar-fixed-top</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="use_2_column_wall_layout" phrase_var_name="setting_use_2_column_wall_layout" ordering="1" version_id="3.7.3">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="enable_prettysociable" phrase_var_name="setting_enable_prettysociable" ordering="1" version_id="3.7.3">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_enable_browse_photo_style1" phrase_var_name="setting_mac_bootstrap_enable_browse_photo_style1" ordering="1" version_id="3.7.0">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="bootstrap_enable_cometchat_support" phrase_var_name="setting_bootstrap_enable_cometchat_support" ordering="1" version_id="3.7.0">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_enable_theme_switcher" phrase_var_name="setting_mac_bootstrap_enable_theme_switcher" ordering="1" version_id="3.7.0rc1">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_photoswipe" phrase_var_name="setting_mac_enable_photoswipe" ordering="1" version_id="3.7.0beta2">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="array" var_name="mac_bootstrap_theme_list" phrase_var_name="setting_mac_bootstrap_theme_list" ordering="1" version_id="3.7.0rc1"><![CDATA[s:293:"array(
+  0 => 'default',
+  1 => 'green',
+  2 => 'cerulean',
+  3 => 'united',
+  4 => 'flatly',
+  5 => 'simplex',
+  6 => 'cosmo',
+  7 => 'google',
+  8 => 'cyborg',
+  9 => 'journal',
+  10 => 'yeti',
+  11 => 'spacelab',
+  12 => 'flatstrap',
+  13 => 'lumen',
+  14 => 'readable',
+  15 => 'apple',
+);";]]></setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="mac_bootstrap_cover_size" phrase_var_name="setting_mac_bootstrap_cover_size" ordering="1" version_id="3.7.0">_1024</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="large_string" var_name="mac_html5_ajaxify_links" phrase_var_name="setting_mac_html5_ajaxify_links" ordering="1" version_id="3.7.0"><![CDATA[a:internal:not(a[href*=#], a#start, a.close, a.dropdown-toggle, .activity_feed_form_attach a, .no-ajaxy, .no_ajax_link, .thickbox, a.inlinePopup, .comment_mini_link_like a, .activity_like_holder a, a.dont-unbind, .mac-no-ajaxify-links a), a.mac-ajaxify, .mac-ajaxify-links a, a.ajax_link]]></setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_submenu_off" phrase_var_name="setting_mac_bootstrap_submenu_off" ordering="1" version_id="3.7.0beta1">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="bootstrap3_make_fullwidth_on_scroll" phrase_var_name="setting_bootstrap3_make_fullwidth_on_scroll" ordering="1" version_id="3.7.3">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_nicescroll" phrase_var_name="setting_mac_enable_nicescroll" ordering="1" version_id="3.7.0beta2">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_html5history_ajax" phrase_var_name="setting_mac_enable_html5history_ajax" ordering="1" version_id="3.7.0beta2">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="mac_bootstrap_style_name" phrase_var_name="setting_mac_bootstrap_style_name" ordering="1" version_id="3.7.0beta2">default</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="array" var_name="mac_bootstrap_tour_list" phrase_var_name="setting_mac_bootstrap_tour_list" ordering="1" version_id="3.7.0beta2"><![CDATA[s:71:"array(
+  0 => 'page-core-index-member',
+  1 => 'page-profile-index',
+);";]]></setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="mac_disqus_shortname" phrase_var_name="setting_mac_disqus_shortname" ordering="1" version_id="3.7.0">PUT HERE YOUR DISQUS USERNAME</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_use_disqus" phrase_var_name="setting_mac_use_disqus" ordering="1" version_id="3.7.0">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_mediaelement" phrase_var_name="setting_mac_enable_mediaelement" ordering="1" version_id="3.7.0">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="mac_sequence_theme" phrase_var_name="setting_mac_sequence_theme" ordering="1" version_id="3.7.0">parallax</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="mac_bootstrap3_mobile_landing" phrase_var_name="setting_mac_bootstrap3_mobile_landing" ordering="1" version_id="3.7.0">login</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_enable_tour" phrase_var_name="setting_mac_bootstrap_enable_tour" ordering="1" version_id="3.7.0beta2">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_megamenu" phrase_var_name="setting_mac_bootstrap_megamenu" ordering="1" version_id="3.7.0">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_default_extra_theme" phrase_var_name="setting_mac_bootstrap_default_extra_theme" ordering="1" version_id="3.7.0beta2">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_userprofile_header" phrase_var_name="setting_mac_bootstrap_userprofile_header" ordering="1" version_id="3.7.0">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_pnotify" phrase_var_name="setting_mac_enable_pnotify" ordering="1" version_id="3.7.0beta2">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="array" var_name="mac_bootstraphpfox3_license_key" phrase_var_name="setting_mac_bootstraphpfox3_license_key" ordering="1" version_id="3.7.0"><![CDATA[s:565:"array(
+  0 => 'eea71d45126608725bedfec5086b91912c3f092e44c2e5dba6700bbeaf2f8a427cb67407ba87de85c8f1ec98cd3b3e5a26e0b496d031d71a9adb2c91f072e4f2',
+  1 => '94af3a0ee70cfab96beceeb46d18ea67720bebe2c52563ab6a6a31659e615230586ec5f477314c1e2d6a4fe124b70e1e0786193fc53cc3226b449c9726a79be4',
+  2 => 'd107a68b8fceeae9a87421fe1dc388904af914f743aabeb756787657b5edab45124fb24a21823d8fe1f440312ae8c36f14df7a6a62401bac7fb1ff4f0a4ef432',
+  3 => 'c5bc87a6c6055620fd141258bd076a8e0dcd0718a9908a37ebcd07d546597142c3485263c60f7d4e381e3c8927afe3f428ccc25d0cf8b11cc7dc8d5b6a7e8b26',
+);";]]></setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_pace" phrase_var_name="setting_mac_enable_pace" ordering="1" version_id="3.7.4">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_round_pic" phrase_var_name="setting_mac_round_pic" ordering="1" version_id="3.7.0beta2">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_navbar_inverse" phrase_var_name="setting_mac_bootstrap_navbar_inverse" ordering="1" version_id="3.7.0beta1">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="bootstrap3_header_type" phrase_var_name="setting_bootstrap3_header_type" ordering="1" version_id="3.7.2">style2</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_show_feed_links" phrase_var_name="setting_mac_bootstrap_show_feed_links" ordering="1" version_id="3.7.0">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_bootstrap_cover_position" phrase_var_name="setting_mac_bootstrap_cover_position" ordering="1" version_id="3.7.0">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_css3_animation" phrase_var_name="setting_mac_enable_css3_animation" ordering="1" version_id="3.7.4">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="string" var_name="mac_bootstrap_feed_image_size" phrase_var_name="setting_mac_bootstrap_feed_image_size" ordering="1" version_id="3.7.4">650</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_enable_backstretch" phrase_var_name="setting_mac_enable_backstretch" ordering="1" version_id="3.7.0">0</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="macshowdashboardblockpage" phrase_var_name="setting_macshowdashboardblockpage" ordering="1" version_id="3.7.0">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="macshowdashboardblockblog" phrase_var_name="setting_macshowdashboardblockblog" ordering="1" version_id="3.7.0">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="mac_show_photo_from_feed_on_browse_photo" phrase_var_name="setting_mac_show_photo_from_feed_on_browse_photo" ordering="1" version_id="3.7.0beta2">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="show_login_form_into_modal" phrase_var_name="setting_show_login_form_into_modal" ordering="1" version_id="3.7.6">1</setting>
+		<setting group="" module_id="macore" is_hidden="0" type="boolean" var_name="macshowdashboardblockvideo" phrase_var_name="setting_macshowdashboardblockvideo" ordering="1" version_id="3.7.0">1</setting>
+	</settings>
+	<blocks>
+		<block type_id="0" m_connection="core.index-member" module_id="macore" component="dashboardblocks" location="3" is_active="1" ordering="13" disallow_access="" can_move="0">
+			<title>Media Blocks</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="core.index-member" module_id="macore" component="friendonline" location="1" is_active="1" ordering="3" disallow_access="" can_move="0">
+			<title>Friend Online</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="core.index-member" module_id="macore" component="loglogin" location="1" is_active="1" ordering="2" disallow_access="" can_move="0">
+			<title>User Log Login</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="macore" component="friendonline" m_connection="" module="macore" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="macore" component="dashboardblocks" m_connection="" module="macore" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="macore" component="loglogin" m_connection="" module="macore" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="macore" version_id="3.6.0" var_name="module_macore" added="1373987581">Macagoraga Core</phrase>
+		<phrase module_id="macore" version_id="3.7.0beta1" var_name="mac_placeholder_start_writing" added="1376473456">Start writing...</phrase>
+		<phrase module_id="macore" version_id="3.7.0beta1" var_name="setting_mac_bootstrap_navbar_inverse" added="1376921344"><![CDATA[<title>Bootstrap navbar inverse?</title><info>Almost all bootstrap theme have 2 different navbar colors, light and dark. Default bootstrap theme have black and lightgray navbar. When this setting is enabled with default theme the navbar is black, otherwise lightgray.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta1" var_name="setting_mac_bootstrap_submenu_off" added="1376920894"><![CDATA[<title>Hide submenu?</title><info>When this option is set to True, the submenu don&#039;t appear on left block, but only on search menu. This can be used when use full width mode.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_bootstrap_style_name" added="1378809148"><![CDATA[<title>Add here the name of your bootstrap style</title><info>Refer to documentation how to create new style and put here your custom style name.
+Each style have usually 2 navbar color, you can change navbar color on setting "Bootstrap navbar inverse?"</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_bootstrap_enable_tour" added="1378816175"><![CDATA[<title>Enable Tour Guide</title><info>If this setting is TRUE, the tour guide is enabled. If you want edit tour, check documentation.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_bootstrap_tour_list" added="1378824102"><![CDATA[<title>Controller name where load the tour</title><info>Add here the controller name where load the tour, you should create also the file for this. More info on documentation.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_enable_html5history_ajax" added="1378886643"><![CDATA[<title>Enable HTML5 History API</title><info>Put this to TRUE for enable enable HTML5 History API.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_show_photo_from_feed_on_browse_photo" added="1378887081"><![CDATA[<title>Show photo shared on feed on browse Photos?</title><info>phpFox usually don&#039;t show the photo shared via feed on browse photos. Enabling this option all photos shared via feed will appear also on browse photos.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="admin_menu_manage" added="1378887458">Manage</phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_round_pic" added="1378918118"><![CDATA[<title>Make round pic?</title><info>Enable this if you want to make round pic for user profile.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_enable_nicescroll" added="1378975293"><![CDATA[<title>Enable Nicescroll plugin?</title><info>If you want use nicescroll plugin then you can set this option to TRUE. More info about Nicescroll here: http://areaaperta.com/nicescroll/</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_enable_pnotify" added="1378975722"><![CDATA[<title>Enable pnotify plugins?</title><info>If you want enable pnotify plugins, then set this option to TRUE. More info about pnotify: http://pinesframework.org/pnotify/ 
+
+This is used together with other notifications options for announcement, friends request, new messages, notifications and advertisement.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_bootstrap_default_extra_theme" added="1378976107"><![CDATA[<title>Enable extra style for a custo theme</title><info>This option can be used for override bootstrap theme, so you can easy upgrade without lost your change. When you enable this option, the default theme will change the look and feel adding more style. If you like FLAT style, then probably you don&#039;t want enable this settings, since it add shadow, gradient and others style that is not used in a FLAT design. Refer to documentation for more info.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="setting_mac_enable_photoswipe" added="1378978173"><![CDATA[<title>Enable photoswipe?</title><info>This option is only for browse photos on mobile. By enabling this option, the users can browse photo using Photoswipe, which allow zoom in/out and slideshow with swiping. More info: http://www.photoswipe.com/</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0beta2" var_name="spread_the_world_share_this_feed" added="1378987314">Spread the world! Share this feed!</phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="setting_mac_bootstrap_theme_list" added="1379164053"><![CDATA[<title>Bootstrap theme list</title><info>This is bootstrap theme list that are enabled. Use this together with bootstrap name. If you are create custom style, you should add it here in order to work. Refer to documentation for more info.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="setting_mac_bootstrap_enable_theme_switcher" added="1379244985"><![CDATA[<title>Enable Theme Switcher?</title><info>If you want enable theme switcher to your users, set this option to true. This will use a custom theme switcher that use Cookie for save theme name. This is currently in test mode and used for show all themes in demo site.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="landing_welcome" added="1379954714">Welcome to {sSiteTitle}</phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="explore_connect_share_and_become_part_of_a_whole_new_media_sharing_community" added="1379955253"><![CDATA[Explore, connect, share, and become part of a whole new media sharing Community!
+<br> 
+It&#039;s as simple as clicking on the link above.]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="join_now_and_icon" added="1379955338"><![CDATA[Join Now <i class="icon-share-alt"></i>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="first_time_join_us_you_are_welcome_to_our_community" added="1379955876">First time? Join us, you are welcome to our community.</phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="sign_up_and_icon" added="1379955900"><![CDATA[Sign Up <i class="icon-share-alt"></i>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="sign_in_and_icon" added="1379955932"><![CDATA[Sign In <i class="icon-signin"></i>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="already_our_member_connect_with_your_account" added="1379955954">Already our member? Connect with your account.</phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="login_to_site_title" added="1379956332">Login to {sSiteTitle}</phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="state_thy_name_ye_shall_pass" added="1379956365"><![CDATA[State thy name & ye shall pass.]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="sign_in_using" added="1379956440">Sign in using</phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="or" added="1379956589">or</phrase>
+		<phrase module_id="macore" version_id="3.7.0rc1" var_name="manage_your_account" added="1380118242">Manage your account</phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstraphpfox3_license_key" added="1380291589"><![CDATA[<title>Add here your license key</title><info>Add here your license key. If you receive more that one key, add here all this key. 1 license key it&#039;s allow to install on 1 domain. And you can install on yourdomain.com/development</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_bootstrap_enable_cometchat_support" added="1380547336"><![CDATA[<title>Enable cometchat support</title><info>Put this setting to TRUE if you are using cometchat.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="by" added="1380629128">by</phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_bootpin_lightbox_video" added="1380721331"><![CDATA[<title>Enable lightbox on browse pin for video</title><info>Set this option to true for enable new lightbox on browse pin for video.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap_cover_position" added="1380791693"><![CDATA[<title>Cover always centered?</title><info>If you set this to true, the cover photo is always centered automatically. If you set this to false, users can setup position of cover (top/bottom) only for desktop site. For mobile and tablet, it&#039;s always centered automatically, since each screen resolution require different position, we can&#039;t use only 1 position selected by users.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap_userprofile_header" added="1380793072"><![CDATA[<title>Enable new user profile header</title><info>Set this option to true for enable new user profile header, with user pic and user name on top of cover.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_use_disqus" added="1381238418"><![CDATA[<title>Do you want use disqus?</title><info>Set this option to true if you want use Disqus for no member. In this case theater mode will be automatically disabled, since don&#039;t work with Disqus. More info of Disqus, here: disqus.com</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_disqus_shortname" added="1381238460"><![CDATA[<title>Add here your disqus shortname</title><info>Add here your disqus shortname that you receive after registration on disqus.com</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="start_tour" added="1381320507">Start tour</phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_macshowdashboardblockblog" added="1381322164"><![CDATA[<title>Show blogs block on dashboard?</title><info>Show blogs block on dashboard?</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_macshowdashboardblockvideo" added="1381322202"><![CDATA[<title>Show videos block on dashboard?</title><info>Show videos block on dashboard?</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_macshowdashboardblockpage" added="1381322231"><![CDATA[<title>Show pages block on dashboard?</title><info>Show pages block on dashboard?</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="last_pages" added="1381322801">Last Pages</phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap_support_musicsharing" added="1381411468"><![CDATA[<title>Add support for musicsharing?</title><info>If you are using musicsharing third party addon, enable this setting.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_sequence_theme" added="1381411642"><![CDATA[<title>Add here the name of slideshow theme</title><info>Add here the name of slideshow theme, more info on online tutorial: www.macagoraga.com/forum/page</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_enable_mediaelement" added="1381845767"><![CDATA[<title>Enable MediaElement?</title><info>Enable HTML5 video and audio player? More info:
+http://mediaelementjs.com/
+This replace videojs.com</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="remove_this_answer" added="1382098124">Remove this answer</phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_html5_ajaxify_links" added="1382263498"><![CDATA[<title>CSS Selectors for html5 ajaxify browsing</title><info>You can manage here the css selectors for html5 ajaxify browsing. Edit this only if you know what are you doing.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap_megamenu" added="1382711175"><![CDATA[<title>Enable Mega Menu?</title><info>If you want use Mega Menu, then you can enable this setting. Mega Menu allow extend your current menu. This require to edit one html file for customize default look and feel.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap3_mobile_landing" added="1383574323"><![CDATA[<title>Change mobile landing style</title><info>You can change here the mobile landing style. Currently exist: &#039;dashboard-icons&#039;, &#039;login&#039;, &#039;wall&#039;, &#039;mac&#039;, &#039;custom&#039;</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_enable_backstretch" added="1384086615"><![CDATA[<title>Enable Backstretch?</title><info>If you enable this options, all covers upload by users will be show as slideshow. User that want only 1 cover, they can upload just one for disable slider.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap_cover_size" added="1384086814"><![CDATA[<title>Define cover size</title><info>You can define here cover size. If you want use cover size 1024px, then just add "_1024" without quotes. Remember that the size that you add here, should exist on setting > photo Leave blank to use original photo uploaded.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap_enable_browse_photo_style1" added="1384091522"><![CDATA[<title>Enable new browse photos?</title><info>If you enable this option, then the browse photos will be different, with photo caption that show on hover.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="setting_mac_bootstrap_show_feed_links" added="1384414271"><![CDATA[<title>Make links feed always visible</title><info>Enable this option for make feed links always visible. This are for buttons like like, comment, share, report, ... If you disable this option this link are visible only on hover.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="mac_actions_link" added="1385978069">Actions</phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="mac_more_link" added="1385978160">More</phrase>
+		<phrase module_id="macore" version_id="3.7.0" var_name="mac_more_link_tooltip" added="1385978195">More options</phrase>
+		<phrase module_id="macore" version_id="3.7.2" var_name="setting_bootstrap3_header_type" added="1387283011"><![CDATA[<title>Select menu type</title><info>Bootstrap theme offer different header. You can check documentation for more info about all header type supported. You can also create a new custom for your site.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.3" var_name="setting_enable_prettysociable" added="1387357445"><![CDATA[<title>Enable prettysociable?</title><info>Prettysociable is a nice way for your users to quick share pages on other social site like facebook, twitter, and others.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.3" var_name="setting_bootstrap3_dd_onhover" added="1387382863"><![CDATA[<title>Enable Dropdown On Hover?</title><info>If you enable this settings the dropdown submenu of menu and others will be open on-hover.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.3" var_name="setting_bootstrap3_make_fullwidth_on_scroll" added="1387558689"><![CDATA[<title>Make layout fullwidth on scroll?</title><info>Enable this feature will make layout fullwidth when user scroll down. When left and right block are not anymore visible on the screen, then the middle main content will become fullwidth.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.3" var_name="setting_use_2_column_wall_layout" added="1387718517"><![CDATA[<title>Use 2 column wall?</title><info>Enable this option to turn ON 2 column layout for news feed.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.3" var_name="view_all_photo_size" added="1387731559">View all size of this photo</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_mac_enable_pace" added="1388914628"><![CDATA[<title>Enable Youtube Page Loader?</title><info>Enable this setting for show a page loader like youtube. Check more info on documentation how to change style and color of loader. Default are RED like youtube.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_mac_enable_css3_animation" added="1389264649"><![CDATA[<title>Enable CSS3 animation?</title><info>Enable this settings if you want use CSS3 animation. Check documentation how to use it.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="put_here_your_description_for_comparison_of_package_you_can_edit_this_phrase_on_admincp_cms_manage" added="1393515005"><![CDATA[Change this text phrase on admincp > cms > manage phrase.]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="select_your_plan" added="1393515014">Select your plan</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="features" added="1393515048">Features</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="icon_table_comparison" added="1393515072"><![CDATA[<i class="icon-star icon-3x"></i>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_mac_bootstrap_feed_image_size" added="1393534828"><![CDATA[<title>Add here the size of image for news feed</title><info>Add here the size of image for news feed. Phpfox use default 500px, I suggest to use 650px for bootstrap theme. You can generate new set of thumbs. For do this firstly go here /admincp/setting/edit/module-id_photo/ and add new image size, 650, and then go to /admincp/maintain/counter/ and click Update Photo Thumbnails.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="open_in_a_new_window" added="1393921747">Open in a new window</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="like_this_post" added="1393921885">Like this post</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="remove_like_from_this_post" added="1393921918">Remove like from this post</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="delete_event" added="1393922469">Delete this event</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="remove_favorites" added="1393922693">Remove from favorites</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="add_favorites" added="1393922744">Add to favorites</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="all_categories" added="1393922783">All categories</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="filter" added="1393922878">Filter</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="main_menu" added="1393923001">Explore</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="sure_delete_this_post" added="1393923308"><![CDATA[Are you sure you want delete this post? This action can\&#039;t be undo.]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="zoom_photo" added="1393923726">Zoom photo</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="open_slideshow" added="1393923859">Open in slideshow mode</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="zoom" added="1393923908">Zoom</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="watch_this_video" added="1393924095">Watch this video</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="open" added="1393924481">Open</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="switch_to_one_column" added="1393924549">Switch to one column</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="switch_to_two_column" added="1393924637">Switch to two column</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="switch_to_three_column" added="1393924653">Switch to three column</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="pause_auto_scrolling" added="1393924667">Pause auto scrolling</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="restart_auto_scrolling" added="1393924680">Restart auto scrolling</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="options" added="1393924742">Options</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="default_view" added="1393924754">Default view</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_bootstrap_disable_switch_view" added="1393924833"><![CDATA[<title>Enable or disable switch view</title><info>Allow user to switch view in 4, 3, 2 or 1 column, as well stop/play auto scrolling.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="sort" added="1393924860">Sort</phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_mac_bootstrap_navbar_position" added="1396340431"><![CDATA[<title>Navbar position</title><info>Add here navbar position. Possible value are: navbar-fixed-top, navbar-fixed-bottom, navbar-static-top</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_mac_bootstrap_feed_link_class" added="1396340530"><![CDATA[<title>Use links or button?</title><info>Enable this option to use links and not buttons for feed action links (share, likes, comment, ...).</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_mac_bootstrap_cover_type" added="1396340586"><![CDATA[<title>Cover type</title><info>Enable this option to make cover fixed. Disable for  make cover fluid (fullscreen).</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.4" var_name="setting_bootstrap_landing_type" added="1396340648"><![CDATA[<title>Add here landing name</title><info>There are different landing page. Possible value are: registration, mac, classic or custom.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.6" var_name="setting_mac_bootstrap_userpic_position_left" added="1396603318"><![CDATA[<title>User pic position</title><info>On news feed page there is user pic and user menu. If you enable this option this block will be on left, otherwise on right side.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.6" var_name="setting_show_login_form_into_modal" added="1396610820"><![CDATA[<title>Show login form into modal window?</title><info>Enable this option to show login form into modal box.</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.6" var_name="setting_google_recaptcha_site_key" added="1417683847"><![CDATA[<title>Google recaptcha site key</title><info>Put here google recaptcha site key, which you can generate from here: https://www.google.com/recaptcha</info>]]></phrase>
+		<phrase module_id="macore" version_id="3.7.6" var_name="setting_google_recaptcha_secret_key" added="1417683914"><![CDATA[<title>Google recaptcha secret key</title><info>Google recaptcha secret key which you can generate from here: https://www.google.com/recaptcha/</info>]]></phrase>
+	</phrases>
+</module>

@@ -1,0 +1,9 @@
+#cometchat * {
+box-sizing: content-box !important;
+-moz-box-sizing: content-box !important;
+-o-box-sizing: content-box !important;
+}
+/*
+#cometchat_hidden_content {
+	width: 32px!important
+}*/

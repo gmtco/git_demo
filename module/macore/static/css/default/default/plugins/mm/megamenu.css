@@ -1,0 +1,121 @@
+/* AUTO WIDTH COL */
+.mac-megamenu .nav,
+.mac-megamenu .dropup,
+.mac-megamenu .dropdown,
+.mac-megamenu .collapse {
+  position: static;
+}
+
+.mac-megamenu .dropdown.mac-notify-box{
+  position: relative;
+}
+
+.mac-megamenu .navbar-inner,
+.mac-megamenu .container {
+  position: relative;
+}
+.mac-megamenu .dropdown-menu {
+  left: auto;
+}
+.mac-megamenu .dropdown-menu > li {
+  display: block;
+}
+.mac-megamenu .navbar-right .dropdown-menu {
+  right: 0;
+}
+.mac-megamenu .mac-megamenu-content {
+  /*padding: 20px 30px;*/
+  padding:10px 5px;
+  *zoom: 1;
+}
+.mac-megamenu .mac-megamenu-content:before,
+.mac-megamenu .mac-megamenu-content:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.mac-megamenu .mac-megamenu-content:after {
+  clear: both;
+}
+.mac-megamenu.navbar .nav > li > .dropdown-menu:after,
+.mac-megamenu.navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+.mac-megamenu .dropdown.mac-megamenu-fullwidth .dropdown-menu {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+
+/* blocks */
+.mac-mm-box{
+min-height: 200px
+}
+
+.mac-mm-box-body{
+
+}
+
+.mac-mm-box-footer p{
+margin-top:10px;
+font-size: 11px
+}
+.mac-mm-box-footer p img{
+margin-right:10px;
+}
+
+.mac-mm-box-body p.mac-media-content{
+  margin-bottom:10px;
+}
+
+.mac-mm-box-body .mac-media-content i{
+display: block
+}
+
+.mac-mm-box-body h5{
+font-size: 18px;
+margin-bottom: 0px;
+margin-top: 20px;
+font-weight: normal;
+}
+.mac-mm-box-body h5 a:hover
+, .mac-media-content a:hover
+{
+text-decoration: none;
+}
+
+/* really fullwidth */
+.mac-megamenu .dropdown.mac-megamenu-fullwidth .dropdown-menu {
+    position: fixed;
+    top: 50px;
+}
+body.page-navbar-fixed-bottom .mac-megamenu .dropdown.mac-megamenu-fullwidth .dropdown-menu{
+top:auto;
+bottom:50px
+}
+/*
+.mac-megamenu .dropdown.mac-megamenu-fullwidth .dropdown-menu .mac-megamenu-content .container{
+  max-width: 100%
+}
+*/
+/* end really fullwidth */
+
+
+
+
+@media (max-width: 969px) {
+  .mac-megamenu .dropdown.mac-megamenu-fullwidth .dropdown-menu {
+    width: auto;
+  }
+  .mac-megamenu .mac-megamenu-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .mac-megamenu .dropdown-menu > li > ul {
+    display: block;
+  }
+}

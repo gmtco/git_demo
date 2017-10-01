@@ -1,0 +1,10 @@
+.search-categories ul {
+	
+	padding:0!important;
+	margin:0!important
+
+}
+
+.job-search-form input[name="title"]{
+	width: 100%!important
+}

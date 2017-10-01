@@ -1,0 +1,108 @@
+.mac-blog-browse iframe
+, .mac-blog-browse video
+, .mac-blog-browse embed
+, .mac-blog-browse object
+{
+    max-width: 100%;
+    /*max-height: 200px*/
+}
+/* Video Elastize */
+.mac-video-responsive video
+, .mac-video-responsive .mac-video-elastize 
+, video
+{
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.mac-video-responsive video
+, .mac-video-responsive #js_video_player
+, .mac-video-responsive #mac-video-player 
+, video
+{
+  max-width:100%!important
+}
+#js_video_player{
+width:100%!important;
+max-width:100%!important;
+height: auto!important;
+}
+
+/*
+usage:
+<div class="mac-iframe-elastize">   
+<iframe width="560" height="349" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+</div>
+Whatever YouTube iframe embed code you paste within the .mac-iframe-elastize, you'll see it presented in a fluid 16:9 box.
+.mac-video-responsive .mac-iframe-elastize
+, .mac-video-responsive #js_controller_video_view #mac-content .item_view .t_center 
+/* added 13.11.13 - fix issue on modal box for new added video 
+, .js_box .js_box_content div.t_center
+, .js_box .js_box_content div.t_center
+, .js_box .js_box_content div.t_center
+end */
+/*
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+*/
+.mac-video-responsive .mac-iframe-elastize iframe 
+, .mac-video-responsive .mac-iframe-elastize object
+, .mac-video-responsive .mac-iframe-elastize embed
+
+/*
+, .mac-video-responsive #js_controller_video_view #mac-content .item_view .t_center iframe
+, .mac-video-responsive #js_controller_video_view #mac-content .item_view .t_center object
+, .mac-video-responsive #js_controller_video_view #mac-content .item_view .t_center embed
+, .mac-video-responsive #js_controller_video_view #mac-content .item_view .t_center video
+*/
+, .mac-video-responsive .mac-iframe-elastize video
+
+
+
+/* added 13.11.13 - fix issue on modal box for new added video
+, .js_box .js_box_content div.t_center embed
+, .js_box .js_box_content div.t_center iframe
+, .js_box .js_box_content div.t_center object */
+/* end */
+/*
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+/*
+.mac-video-responsive #js_controller_video_view #mac-content .item_view #js_video_outer_body div div.dropdown {
+}
+*/
+
+/* fixed width
+.page-video-view embed 
+, .page-video-view video 
+, .page-video-view object
+, .page-video-view #js_video_player
+{
+   /* max-height: 390px!important;
+    max-width: 640px!important;*/
+    /*
+    width: 600px;
+    max-width: 100%;
+    margin:auto;
+}
+*/
+
+
+.fluidvids
+, .fluid-width-video-wrapper
+{
+    background:#000;
+    box-shadow:0 1px 4px #000;
+    margin:30px 0;
+}

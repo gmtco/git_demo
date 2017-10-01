@@ -1,0 +1,285 @@
+/* 1. bootstrap theme file go here */
+
+/* INCLUDE HERE bootstrap.css file */
+
+
+
+/* ***************************************
+ 2. extra style that should be changed for each new style 
+ *************************************** */
+.list-group-item.active {
+  background: #428bca;
+  color: #fff;
+}
+.photo_hover_info_actions_do a {
+  color: #222;
+  text-decoration: none;
+}
+
+.page-is-mobile .holder_notify_drop_title {
+  color: #fff;
+}
+.page-is-mobile .js_box.mobile_js_box {
+  background: #428bca;
+}
+.page-is-mobile .js_box_close {
+  background: #222!important;
+}
+.page-is-mobile .js_box_close a {
+  background: #428bca;
+  color: #fff!important;
+  border: 3px solid #428bca;
+}
+.page-is-mobile .drop_data_empty {
+  color: #fff;
+}
+.iradio_flat-mac.checked {
+  background-position: -110px 0;
+}
+.icheckbox_flat-mac.checked.disabled {
+  background-position: -66px 0;
+}
+.friend_search_active,
+.friend_search_active:hover {
+  background: #f1f1f1;
+  color: #666;
+}
+#hashtag_cloud .tag_cloud ul li a {
+  color: #428bca;
+}
+#hashtag_cloud .tag_cloud ul li a:hover {
+  color: #3071a9;
+}
+.moderation_drop.is_clicked:hover,
+.navbar-mobile #holder_notify_drop_link,
+.navbar-mobile .holder_notify_drop_link,
+.navbar-mobile .drop_data_content {
+  color: #fff;
+}
+.js_box_image_holder_full .js_box_close a,
+.js_box_image_holder_full .js_box_close a:hover,
+.js_box_close a,
+.js_box_close a:hover,
+#js_marketplace_click_image_viewer_close a,
+#js_marketplace_click_image_viewer_close a:hover {
+  background: #222;
+  border: 3px solid #222;
+  border-radius: 5px;
+  color: #999;
+  font-weight: 400;
+}
+.moderation_holder ul li a.moderation_clear_all,
+.moderation_holder ul li a.moderation_clear_all:hover {
+  border: 0;
+}
+.feed_share_holder {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+}
+
+.js_box_image_holder_full .js_box_close a:hover,
+.js_box_image_holder_full #js_marketplace_click_image_viewer_close a:hover,
+.js_box_close a:hover,
+#js_marketplace_click_image_viewer_close a:hover,
+.navbar-mobile.navbar-inverse .drop_data_user,
+.navbar-mobile.navbar-inverse .drop_data_time {
+  color: #fff;
+}
+
+div.style_separate {
+  background: #ddd;
+}
+.moderation_holder ul {
+  background: #FFF;
+  border-color: #eee;
+  border-style: solid;
+  border-width: 1px;
+}
+.moderation_holder ul li a:hover {
+  background: #f1f1f1;
+  color: #222;
+}
+a.moderation_drop,
+a.moderation_drop:hover {
+  background-image: none;
+  border: 0;
+  color: #222;
+  font-weight: 400;
+  text-decoration: none;
+  width: 200px;
+}
+#js_global_attach_value {
+  height: 33px;
+}
+#mac-main-topbar.navbar-mobile #mac-right-menu .mac-notify-box.open .mac-friend-drop,
+#mac-main-topbar.navbar-mobile #mac-right-menu .mac-notify-box.open .mac-mail-drop,
+#mac-main-topbar.navbar-mobile #mac-right-menu .mac-notify-box.open .mac-notification-drop {
+  background: #428bca;
+}
+
+
+.photo_hover_info_actions {
+  color: #222;
+}
+.moderation_drop.is_clicked {
+  color: #fff;
+}
+
+
+.label_flow_menu li.label_flow_menu_active a,
+.label_flow_menu li.label_flow_menu_active a:hover,
+.page_section_menu ul li.active a,
+.page_section_menu ul li.active a:hover,
+.global_attachment_manage a:hover {
+  background: #428bca;
+}
+div.js_box_image_holder_full div.photo_view_in_photo span#js_photo_in_this_photo,
+div.js_box_image_holder_full div.photo_view_in_photo b {
+  font-weight: 400;
+  color: #fff;
+}
+.js_box_image_holder_full,
+.js_box_image_holder_full .js_box,
+.js_box_image_holder_full .js_box_close {
+  background: #000;
+}
+
+
+
+a.moderation_action_unselect,
+a.moderation_action_unselect:hover,
+a.moderation_action_select,
+a.moderation_action_select:hover {
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: 400;
+  text-decoration: none;
+}
+#js_is_user_profile .profile_info {
+  color: gray;
+  font-size: 12px;
+  margin-top: 24px;
+}
+.js_box {
+  color: #000;
+}
+#mac-main-topbar.navbar-mobile ul.nav > li {
+  padding-top: 4px;
+}
+.iradio_flat-mac {
+  background-position: -88px 0;
+}
+.js_temp_friend_search_input:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+  border-color: #66AFE9;
+}
+.js_temp_friend_search_form_holder ul li a.js_temp_friend_search_form_holder_focus,
+.js_temp_friend_search_form_holder ul li a:hover {
+  background: #428bca;
+}
+.js_comment_feed_textarea.form-control.input-lg {
+  min-height: 45px!important;
+  height: 45px;
+}
+.js_box_title {
+  background: #428BCA;
+}
+div.error_message {
+  background-color: #f2dede;
+  color: #b94a48;
+  font-weight: 400;
+  position: static;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border-color: #eed3d7;
+  padding: 15px;
+}
+.js_temp_friend_search_input {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #555;
+  transition: border-color 0.15s ease-in-out 0 box-shadow 0.15s ease-in-out 0;
+}
+.cover_photo_link,
+.mac-cover-wrap {
+  margin-top: -20px;
+}
+.drop_data_user,
+.extra_info,
+.extra_info_link {
+  color: #222;
+  font-size: 12px;
+}
+.global_attachment_manage a.is_not_active,
+.global_attachment_manage a.is_not_active:hover {
+  background: #428bca;
+  color: #fff;
+}
+
+
+
+
+
+.icheckbox_flat-mac,
+.iradio_flat-mac {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background: url(../plugins/icheck-skins/flat/flat.png) no-repeat;
+  border: none;
+  cursor: pointer;
+}
+.icheckbox_flat-mac {
+  background-position: 0 0;
+}
+.icheckbox_flat-mac,
+.iradio_flat-mac {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../plugins/icheck-skins/flat/flat.png) no-repeat;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+#header_menu_user_profile .user_profile_link_span a,
+#header_menu_user_profile .user_profile_link_span a:hover {
+  color: #666;
+  text-transform: uppercase;
+}
+.iradio_flat-mac.disabled {
+  background-position: -132px 0;
+  cursor: default;
+}
+.icheckbox_flat-mac.disabled {
+  background-position: -44px 0;
+  cursor: default;
+}
+.iradio_flat-mac.checked.disabled {
+  background-position: -154px 0;
+}
+.icheckbox_flat-mac.checked {
+  background-position: -22px 0;
+}
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+     only screen and (-moz-min-device-pixel-ratio: 1.5),
+     only screen and (-o-min-device-pixel-ratio: 3/2),
+     only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_flat-mac,
+    .iradio_flat-mac {
+      background-image: url(../plugins/icheck-skins/flat/flat@2x.png);
+      -webkit-background-size: 176px 22px;
+      background-size: 176px 22px;
+    }
+}

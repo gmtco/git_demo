@@ -1,0 +1,3 @@
+<?php
+Phpfox::getLib('template')->assign('sMacFeedLinkClass', Phpfox::getParam('macore.mac_bootstrap_feed_link_class'));
+?>

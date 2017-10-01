@@ -1,0 +1,1 @@
+{template file='macore.block.bootstrap3-search'}

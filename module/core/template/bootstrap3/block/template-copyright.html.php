@@ -1,0 +1,2 @@
+{param var='core.site_copyright'}
+&nbsp;<a href="#" id="select_lang_pack" rel="tooltip" data-placement="right" data-toggle="tooltip" data-original-title="{phrase var='core.language_packages'}">{$sLocaleName}</a>

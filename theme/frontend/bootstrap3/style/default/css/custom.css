@@ -1,0 +1,79 @@
+/* add here custom css */
+
+/* this is for ad into iframe, this css should be here */
+
+/* you can change font-family if you whish */
+#js_body_width_frame{font-family:Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif}
+
+/* don't remove this */
+.ad_unit_multi_ad_text{
+	word-wrap: break-word;
+}
+
+/* end ad into iframe */
+
+.col-privacy-left
+, .col-privacy-right {
+margin-bottom: 20px
+}
+.col-privacy-left {
+    font-weight: bold
+}
+
+.js_feed_view_more_entry_holder {
+
+    border: 1px solid #eee;
+
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+div.comment_mini {
+    padding:6px;
+}
+
+
+.feed_share_holder {
+    box-shadow: none
+}
+.mac-infsc-controls {
+    overflow: visible!important;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.emoji {
+width: 1.5em;
+height: 1.5em;
+display: inline-block;
+margin-bottom: -0.25em;
+}	
+*/
+
+
+.dropdown-menu a:hover {
+    cursor: pointer;
+}
+
+
+/* autocomplete emoji */
+
+/* SHOULD not modify
+
+.dropdown-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+*/

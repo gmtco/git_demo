@@ -1,0 +1,1 @@
+<div class="alert alert-info" id="js_custom_core_message">{$sMessage}</div>

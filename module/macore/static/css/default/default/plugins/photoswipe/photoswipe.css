@@ -1,0 +1,182 @@
+/**
+*
+* Styles
+*
+**/
+#ps-custom-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: block;
+  width: 60px;
+  height: 44px;
+  color: #fff;font-size: 20px;margin-top:10px; }
+  #ps-custom-back.hover {
+    color: #fff; }
+
+#ps-custom-back, .ps-toolbar-previous, .ps-toolbar-play, .ps-toolbar-next {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none; }
+
+.ps-toolbar-previous-disabled, .ps-toolbar-next-disabled {
+  opacity: .25; }
+
+body.ps-active, body.ps-building, div.ps-active, div.ps-building {
+  overflow: hidden;
+  background: #000; }
+
+.ps-carousel {
+  opacity: 0; }
+
+.ps-carousel img, .ps-zoom-pan-rotate img {
+  padding: 0;
+  background: none; }
+
+body.ps-active *, div.ps-active * {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+
+body.ps-active *:focus, div.ps-active *:focus {
+  outline: 0; }
+
+div.ps-document-overlay {
+  background: #000;
+  opacity: 0; }
+
+div.ps-uilayer {
+  background: #000;
+  cursor: pointer; }
+
+div.ps-zoom-pan-rotate {
+  background: #000; }
+
+div.ps-zoom-pan-rotate * {
+  display: block; }
+
+div.ps-carousel-item-loading {
+  background: url('../../../../../image/photoswipe/loader.gif') no-repeat center center; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2) {
+  div.ps-carousel-item-loading {
+    background-size: 20px; } }
+div.ps-carousel-item-error {
+  background: url('../../../../../image/photoswipe/error.gif') no-repeat center center; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2) {
+  div.ps-carousel-item-error {
+    background-size: 20px; } }
+/* Caption */
+div.ps-caption {
+  position: relative;
+  height: 44px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 44px !important; }
+
+div.ps-caption * {
+  display: inline; }
+
+div.ps-caption-bottom {
+  min-height: 44px; }
+
+div.ps-caption-content {
+  display: block; }
+
+/* Toolbar */
+div.ps-toolbar {
+  display: table;
+  height: 44px;
+  background: #000;
+  color: #ffffff;
+  table-layout: fixed;
+  text-align: center;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 44px; }
+  div.ps-toolbar div.hover {
+    color: #7dad83; }
+
+div.ps-toolbar * {
+  display: block; }
+
+div.ps-toolbar-close, div.ps-toolbar-previous, div.ps-toolbar-next, div.ps-toolbar-play, div.ps-toolbar-share {
+  display: table-cell;
+  cursor: pointer; }
+
+div.ps-toolbar {
+  margin: 0 auto 0;
+  width: 44px;
+  height: 44px; }
+
+/**
+*
+* Animations
+*
+**/
+/* Flickering Fix */
+.csstransitions .ps-document-overlay, .csstransitions .ps-carousel, .csstransitions .ps-toolbar, .csstransitions .ps-caption {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden; }
+
+/* Animation Durations and easings */
+.csstransitions .ps-document-overlay, .csstransitions .ps-carousel {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+.csstransitions .ps-toolbar, .csstransitions .ps-caption {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; }
+
+/* Animations */
+.csstransforms .ps-carousel.active, .csstransforms .ps-document-overlay.active {
+  opacity: 1; }
+.csstransforms .ps-document-overlay.unload {
+  opacity: 0 !important; }
+.csstransforms .ps-caption {
+  -webkit-transform: translate(0, -50px);
+  -moz-transform: translate(0, -50px);
+  -ms-transform: translate(0, -50px);
+  -o-transform: translate(0, -50px);
+  transform: translate(0, -50px); }
+  .csstransforms .ps-caption.active {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
+.csstransforms .ps-toolbar {
+  -webkit-transform: translate(0, 50px);
+  -moz-transform: translate(0, 50px);
+  -ms-transform: translate(0, 50px);
+  -o-transform: translate(0, 50px);
+  transform: translate(0, 50px); }
+  .csstransforms .ps-toolbar.active {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); }
+
+ .ps-toolbar i{
+  font-size: 20px;
+  margin-top: 10px
+ }
+
+  .ps-uilayer
+, .ps-caption
+, .ps-toolbar
+, .ps-carousel
+, .ps-document-overlay
+ {
+  z-index: 10003!important
+ }

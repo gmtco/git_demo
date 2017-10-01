@@ -1,0 +1,358 @@
+/* User Profile */
+#js_is_user_profile .sub_section_menu ul li a
+, #js_is_user_profile .sub_section_menu ul li a:hover
+, #js_is_user_profile .sub_section_menu ul li.active a
+, #js_is_user_profile .sub_section_menu ul li.active a:hover
+{
+    padding-left: 5px
+}
+
+
+/* cover */
+@media (min-width: 1200px) {
+    .mac-cover-fixed #js_photo_cover_position{
+        width:1140px;
+    }
+    .mac-cover-fixed .cover_photo_link{
+        width:1140px;
+        margin:0 auto;
+    }
+}
+
+
+.mac-cover-fluid #js_photo_cover_position{
+    width:100%;
+}
+.cover_photo_link {
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height:auto;
+}
+
+
+
+/*
+.cover_photo_link h1 {
+text-align: center;
+color: #fff;
+padding-top: 32%;
+}
+*/
+
+.cover_photo_link .mac-cover-pic-padding
+, .cover_photo_link h1 {
+text-align: center;
+color: #fff;
+padding-top: 32%;
+}
+
+#mac-left .profile_image {
+    display: none
+}
+
+
+
+@media (max-width: 1269px) {
+/* */
+.cover_photo_link {
+    background-position: center center!important;
+}
+/*
+.cover_photo_link{
+    height:auto;
+}
+*/
+/*
+#js_photo_cover_position {
+top:0!important
+}
+*/
+}
+/* end cover */
+
+
+
+
+
+/* user pic space + username on submenu account */
+#header_menu_user_image{
+    left:10px;
+}
+#header_menu_user_profile{
+    margin-left:65px;
+}
+#header_menu_user_profile .user_profile_link_span a,
+#header_menu_user_profile .user_profile_link_span a:hover{
+    font-size: 12px
+}
+/* end user pic space on submenu account */
+
+
+
+/* User profile > Section Menu */
+div#js_is_user_profile div#mac-left ul.list-group li.active a{
+    color:#fff;
+}
+
+
+
+
+
+/* USER > Profile */
+
+.timeline_float_left, 
+.timeline_float_right {
+    background-image: url("../image/layout/timeline_dot.png");
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -1000px;
+    width: 8px;
+}
+.timeline_float_right{
+    left:-14px;
+}
+.timeline_float_left{
+    right:-15px;
+}
+
+/*.timeline_holder, */
+.timeline_holder:hover{
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+#js_is_user_profile .timeline_name_and_date_wrapper .extra_info .js_hover_title {
+position:absolute;left:175px;top:24px
+}
+
+.timeline_holder .js_feed_comment_border {
+    background: #F1F1F1;
+}
+
+.timeline_feed_row .comment_mini_link_like ul li span
+, .activity_feed_content .js_feed_comment_border .comment_mini_link_like ul li span 
+{
+visibility:hidden;
+}
+
+.js_parent_feed_entry.parent_item_feed .js_feed_comment_border .comment_mini_link_like ul li span  
+{
+display: none;
+}
+
+.timeline_holder .js_comment_feed_textarea{
+width:100%
+}
+
+.timeline_name_and_date_wrapper .extra_info{
+font-size:10px;
+text-transform:uppercase;
+padding:0;
+}
+
+.timeline_holder .activity_feed_content_status {
+    border-top: 1px dashed #CCCCCC;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+          
+
+.timeline_main_menu li.active a
+, .timeline_main_menu li.active a:hover 
+{
+    background: transparent;
+    font-weight: bold;
+    color:#222;
+}
+.timeline_main_menu li a
+, .timeline_main_menu li a:hover
+{
+    font-weight: normal;
+    padding:0 6px;
+}
+.profile_timeline_profile_photo{
+padding-top:2px;
+}
+#js_is_user_profile{
+/*  margin-top:-10px; */
+}
+
+#js_is_user_profile #mac-left .profile_timeline_profile_photo
+{
+    /*display: none;*/
+}
+#js_is_user_profile #mac-left{
+    /*padding-top:80px;*/
+}
+
+
+
+.profile_timeline_header_holder .profile_user_image {
+width:120px;
+height: 120px
+}
+.page-no-timeline #js_block_content_profile_track_user .block_listing_inline ul li a img {
+width:50px;
+height:50px;
+margin-right:10px;
+margin-bottom:10px
+}
+
+/* TO DO :: Test on all device/browser/os */
+#page-profile-index.page-no-timeline .profile_image {
+display: none
+}
+.cover_photo_link .profile_image {
+    left: 0px;
+    bottom:0px;
+    position: absolute;
+}
+.cover_photo_link .profile_image .p_4 {
+    text-align: center;
+    background: #000;
+    opacity: .8;
+    font-size: 12px
+}
+.cover_photo_link .profile_image .p_4 a {
+    color:#fff; 
+}
+
+.cover_photo_link > h1 {
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+max-width:1170px;
+position:relative;
+}
+
+/*
+@media (min-width: 768px) and (max-width: 991px) {
+    .cover_photo_link > h1 {
+        max-width: 768px;
+    }
+
+    .cover_photo_link .profile_user_image {
+        width:180px;
+        height: 180px
+    }
+}
+
+
+@media (max-width: 767px) {
+    .cover_photo_link > h1 {
+        max-width:767px;
+    }
+
+    .cover_photo_link .profile_user_image {
+        width:120px;
+        height: 120px
+    }
+}
+*/
+
+
+
+
+
+
+
+/*  ALTERNATIVE USER PROFILE - bottom  
+.cover_photo_link .profile_image {
+top:193px; left:50%;margin-left:-100px; 
+}*/
+
+/*  ALTERNATIVE USER PROFILE - middle 
+.cover_photo_link .profile_image {
+top:50%; left:50%;
+margin-top:-80px; margin-left:-100px; 
+}*/
+
+/*  ALTERNATIVE USER PROFILE - left 
+.cover_photo_link .profile_image {
+top:193px; left:123px; 
+}*/
+
+/* ALTERNATIVE ALA GOOGLE */
+.mac-cover-pic-info {
+    position: absolute;
+    top:0; left:0; bottom:0;
+    width:300px;
+    background:#222;
+    opacity: .2;
+}
+.cover_photo_link .profile_image {
+top:50%;margin-top: -70px;
+left:50px;
+}
+
+
+/* for make user profile pic ROUND */
+.cover_photo_link .profile_image .profile_user_image {
+border-radius:200px
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1199px) {
+    .cover_photo_link > h1 {
+        max-width:  100%;
+        margin: 0 auto 0 15px;
+    }
+
+    .cover_photo_link .profile_user_image {
+        width:180px;
+        height: 180px
+    }
+
+/* ALTERNATIVE ALA GOOGLE */
+.mac-cover-pic-info {
+}
+.cover_photo_link .profile_image {
+}
+
+
+}
+@media (max-width: 767px) {
+    .cover_photo_link > h1 {
+        max-width: 100%;
+    }
+.mac-cover-pic-info {
+    width:150px;
+}
+    .cover_photo_link .profile_user_image {
+    height: 120px;
+    left: -50px;
+    margin-top: 10px;
+    position: absolute;
+    width: 120px;
+    }
+.cover_photo_link .profile_image .p_4 {
+background: none repeat scroll 0 0 #000000;
+bottom: 0;
+font-size: 12px;
+left: -40px;
+opacity: 0.8;
+position: absolute;
+text-align: center;
+width: 100px;
+}
+
+}
+
+
+/* temp fix for user profile two column 
+@media (min-width: 992px) {
+    #js_is_user_profile .mac-feed-box.col-md-6.col-lg-6 {
+        width:49%!important;
+    }
+}*/

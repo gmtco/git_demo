@@ -1,0 +1,8 @@
+<?php
+
+if(Phpfox::getParam('macore.mac_enable_html5history_ajax') && !Phpfox::isMobile() && !Phpfox::isAdminPanel()) 
+{
+	echo '<script type="text/javascript" src="'.'//'.Phpfox::getParam('core.host').Phpfox::getParam('core.folder').'theme/frontend/bootstrap3/style/default/jscript/plugins/history/history.min.js"></script><script type="text/javascript" src="'.'//'.Phpfox::getParam('core.host').Phpfox::getParam('core.folder').'theme/frontend/bootstrap3/style/default/jscript/plugins/ajaxify/ajaxify-html5.js"></script>';
+}
+
+?>

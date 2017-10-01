@@ -1,0 +1,8 @@
+<?php
+
+if(Phpfox::isMobile() && Phpfox::getLib('module')->getFullControllerName() == 'photo.index') {
+$sMacBootstrapThemeUrl = "//".Phpfox::getParam('core.host').Phpfox::getParam('core.folder')."theme/frontend/bootstrap3/";
+echo '<script type="text/javascript" src="'.$sMacBootstrapThemeUrl.'style/default/jscript/plugins/photoswipe/klass.min.js"></script><script type="text/javascript" src="'.$sMacBootstrapThemeUrl.'style/default/jscript/plugins/photoswipe/code.photoswipe-3.0.5.min.js"></script>';
+} 
+
+?>

@@ -1,0 +1,3581 @@
+/*
+
+bootstrapped by
+
+ __  __
+|  \/  | __ _  ___ __ _  __ _  ___  _ __ __ _  __ _  __ _ 
+| |\/| |/ _` |/ __/ _` |/ _` |/ _ \| '__/ _` |/ _` |/ _` |
+| |  | | (_| | (_| (_| | (_| | (_) | | | (_| | (_| | (_| |
+|_|  |_|\__,_|\___\__,_|\__, |\___/|_|  \__,_|\__, |\__,_|
+                        |___/                 |___/  
+
+Bootstraphpfox3 custom.css file for all themes  
+Bootstraphpfox3 Version 1.0                 
+Bootstrap Version 3.0
+Phpfox Version 3.7
+*/
+
+/* only for demo theme switcher - you can remove this code */
+#mac-theme-switcher {
+position:fixed;
+left:0;
+top:200px;
+width:90px;
+min-height:200px;
+background:#eee;
+border:2px solid #ccc;
+border-left:0;
+color:#999
+}
+#mac-theme-switcher p{
+font-size:11px;text-align:center
+}
+#mac-theme-switcher p a{
+display:block;
+font-size:10px;
+background:#fff;
+border:1px solid #ccc;
+color:#222;
+padding: 4px 8px;
+border-radius: 3px 3px 3px 3px;
+}
+#mac-theme-switcher a.close{
+margin-right: -25px;
+margin-top: -25px;
+}
+/* end */
+
+
+@media (min-width: 768px) {
+    .mac-fixed
+    {
+        padding-top: 50px;
+        position: fixed;
+        top: 0;
+        max-width: 270px
+    }
+}
+
+
+/*
+removed for sticky-footer
+body.page-navbar-fixed-top 
+{
+padding-top: 50px;
+}
+body.page-navbar-fixed-bottom 
+{
+padding-bottom: 60px;
+}
+*/
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+}
+
+input
+, textarea
+, select
+{
+    background-image:none;
+}
+
+textarea{
+  resize:vertical;
+}
+
+/*.jumbotron {
+margin-top: 20px;
+}*/
+
+.mac-small-text{
+    font-size: 11px
+}
+
+/**
+what is this??
+padding-right:0;
+*/
+
+.holder{
+width:100%;
+}
+
+/* HIDE CERTAIN ELEMENT */
+.mac-hide
+, #welcome
+/*, .profile_image*/
+{
+display:none;
+}
+
+/* no border */
+.mac-noborder
+, #breadcrumb_holder
+, div.row1
+, div.row2
+, .label_flow
+, div.row_featured
+, div.row_sponsored
+, div.row_sponsored_image
+, div.row_moderate_image
+, div.row_featured_image
+, #privacy_holder_table .extra_info
+, .forum_thread_view_holder
+, #js_is_user_profile .profile_header
+{
+border:0;
+}
+
+/* Left & Right column 
+#mac-left {
+    padding-left:0;
+}
+#mac-right {
+    padding-right:0;
+}*/
+
+/* category + submenu block */
+#mac-left .panel .list-group .list-group-item:first-child
+, #mac-right .panel .list-group .list-group-item:first-child
+{
+border-top: 0;  
+}
+#mac-left .panel .list-group
+, #mac-right .panel .list-group
+{
+margin-top:0;
+}
+#mac-left .panel-heading
+, #mac-right .panel-heading
+{
+margin-bottom:0;
+}
+#mac-left .panel .panel-body
+, #mac-right .panel .panel-body
+{
+    padding-top:10px;
+}
+
+#mac-left .panel .panel-body .list-group
+, #mac-right .panel .panel-body .list-group
+{
+/*
+margin-right: -15px;
+margin-left: -15px;
+margin-top: -10px
+*/
+  margin: -10px -15px -16px;
+}
+/*
+#mac-left .panel .panel-body .category.list-group-item
+, #mac-right .panel .panel-body .category.list-group-item
+, 
+*/
+#mac-left .panel .panel-body .list-group-item
+, #mac-right .panel .panel-body .list-group-item
+{
+border-radius: 0;
+border-left: 0;
+border-right:0;
+}
+/* top menu buttons */
+.btn-user-login
+{
+margin-left: 15px;
+margin-right: 15px;
+}
+.btn-user-register
+{
+margin-right: 15px;
+}
+
+/* Footer */
+#mac_footer_nav a
+{
+    margin-right:10px;
+}
+
+/* event - datepicket */
+.js_date_picker
+{
+width:90px;
+padding:6px;
+}
+
+.js_datepicker_image
+{
+left:69px;
+}
+.page-event-add .js_date_picker{
+
+width:110px;
+}
+.page-event-add .js_datepicker_image{
+
+left:85px;
+}
+
+/* no background image */
+.mac-nobgimg
+, .sub_section_menu ul li.active a
+, .sub_section_menu ul li.active a:hover
+, div.row_featured
+, div.row_sponsored
+, div.row_sponsored_image
+, div.row_moderate_image
+, div.row_featured_image
+{
+    background-image:none;
+}
+
+/**/
+
+
+/* Login */
+#js_login_form.mac-form-signin{
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.page-user-login #breadcrumb_holder{
+display: none;
+}
+
+/* Registration */
+#main_registration_form{
+width: 100%;
+max-width: 600px;
+padding: 15px;
+margin: 0 auto;
+}
+#main_registration_form_holder2 {
+/*background: transparent;
+border-top: none;
+margin-top: 0;
+padding: 0;*/
+}
+
+
+/* theater mode */
+.js_box_image_holder_full #js_photo_view_box_title .row_title_image:hover{
+    border:0;
+    background: transparent;
+    box-shadow: none;
+}
+
+/* fix issue on photo theater mode */
+.js_box_image_holder_full .js_box_close
+{
+height: 80px
+}
+
+.mac-browsing-blog
+{
+    word-wrap:break-word;
+}
+
+/* marketplace
+.mac-marketplace-element
+, .mac-browsing-video
+, .mac-browsing-photo
+, .mac-browsing-blog
+{
+    padding-left: 5px;
+    padding-right: 5px
+} */
+
+#js_controller_marketplace_view .item_view .js_feed_comment_border{
+    border:0;margin:0;
+}
+
+.mac-marketplace-element article
+{
+border:1px solid #ccc;/*
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);*/
+}
+.mac-marketplace-element article .marketplace_price_tag
+, .mac-marketplace-element article .extra_info
+, .mac-marketplace-element article .item_content
+, .mac-marketplace-element article .js_parent_feed_entry
+{
+    padding-left: 20px
+}
+.mac-marketplace-element article .mac-btn-group
+, .mac-marketplace-element article .js_feed_comment_border
+{
+    margin: 0;
+    border:0;
+}
+/* Modal Box */
+.js_box {
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    text-align: left;
+}
+
+.js_box_close, 
+#js_marketplace_click_image_viewer_close{
+    background:#f1f1f1;
+}
+
+a.pager_next_link:active, 
+a.pager_previous_link:active
+{
+    border-bottom-color:#ccc;
+}
+
+/* Share Box */
+
+/*
+#mac-form-top-search{
+    margin-right:10px;
+}
+*/
+
+/* friends*/
+/*
+.friend_action
+{
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+*/
+
+
+a.friend_action_delete,
+a.friend_action_delete:hover 
+{
+    background: none;
+    height: auto;
+    overflow: hidden;
+    position: static;
+    right: auto;
+    text-indent: inherit;
+    top: auto;
+    width: auto;
+}
+
+.friend_search_holder:hover {
+    background:#f1f1f1;
+}
+.label_flow_menu li.label_flow_menu_active a, 
+.label_flow_menu li.label_flow_menu_active a:hover{
+    border-radius: 5px
+}
+
+.global_attachment_manage a.is_not_active, 
+.global_attachment_manage a.is_not_active:hover{
+    border-radius: 5px;
+    text-decoration: none
+}
+
+.page_section_menu ul li.active a, 
+.page_section_menu ul li.active a:hover {
+    border-radius: 5px;
+}
+
+.page_section_menu ul li a, 
+.page_section_menu ul li a:hover {
+    font-weight:normal
+}
+
+.js_temp_friend_search_input {
+font-size: 18px;
+height: 45px;
+line-height: 1.33;
+padding: 10px 16px;
+vertical-align: middle;
+border-radius: 6px;
+width:100%
+}
+.js_temp_friend_search_input:focus {
+outline: 0 none;
+}
+
+/* Pager */
+.pager_view_more_link a:hover {
+    /*background:#222;*/
+}
+.mac_pager_view_more_link a.pager_previous_link, 
+.mac_pager_view_more_link a.pager_next_link {
+   /* display: block;
+    float:none;
+    height: auto;
+    line-height: 25px;
+    width: 100%;
+    background-image:none;
+    overflow: auto;
+    text-indent: 0;*/
+}
+
+/* Language pack */
+#select_lang_pack{
+    text-decoration: none;
+}
+
+
+/* Dashboard blocks */
+#js_block_border_log_login .block_listing_inline li a img{
+margin-bottom:6px;
+margin-left:2px;
+}
+
+
+/* Feed */
+.mac-btn-group{
+    margin-top: 10px;
+    padding-left: 0!important
+}
+.mac-btn-group .btn{
+/*margin-right:5px;  fix issue on some browser */
+}
+
+#js_controller_pages_index .mac-btn-group .btn span{
+    display: none;
+}
+
+/* fix issue on theater mode: todo:: remove this and find better solution */
+.comment_mini_link_like .mac-btn-group li
+{
+list-style: none;
+float:right;
+margin-left:10px;
+display: block;
+}
+.comment_mini_link_like .mac-btn-group li span{
+    display: none;
+}
+/* end temp fix */
+
+
+.comment_mini_link_like{
+
+}
+
+.page-is-mobile .feed_comment_delete_link{
+    display: block!important
+}
+
+.activity_feed_form_share_process{
+    top:-10px;
+}
+
+/*
+.activity_feed_form_button{
+    display: block;
+    background-image: none;
+    background-color:#f1f1f1;
+}
+*/
+
+.mac-play-audio:hover{
+    text-decoration: none;
+}
+
+textarea.mac-share-txt.input-lg
+{
+    height:50px;
+}
+
+.activity_feed_form textarea
+, .activity_feed_form_button_status_info textarea
+, #js_form_music_title
+{
+    width:100% !important;
+}
+.activity_feed_form2 {
+    background: #F9F9F9;
+    border: 1px solid #DFDFDF;
+    margin: 0 0 8px;
+}
+
+
+
+
+ul.activity_feed_form_attach li a.active .drop {
+bottom: -9px;
+height: 10px;
+left: 2px;
+width: 25px;
+}
+
+ul.activity_feed_form_attach li a, 
+ul.activity_feed_form_attach li a:hover{
+    text-decoration: none;
+    width:30px;
+}
+
+/* feed module icons */
+ul.activity_feed_form_attach li a .icon-2x {
+    font-size: 1.6em;
+}
+ul.activity_feed_form_attach li a, 
+ul.activity_feed_form_attach li a:hover{
+    padding-left:0;
+}
+
+/* Feed > Comments */
+div.comment_mini_end {
+    background: #f1f1f1;
+    border-radius: 3px;
+    padding: 8px 4px;
+}
+
+/* Fix nicescroll 
+.label_flow
+,html
+{
+overflow: hidden;
+}
+*/
+
+
+
+/* photo */
+
+
+/*
+@media (min-width: 1170px) {
+    #mac-isotope .mac-browsing-photo.mac-element
+    , #mac-isotope.mac-blog-browse .mac-element
+    , #mac-isotope .mac-browse-pages.mac-element
+    {
+        max-width: 232px!important;
+    }
+    #mac-isotope .mac-browsing-video.mac-element
+    {
+        max-width: 160px!important;
+    }
+}
+*/
+
+.photo_view_detail .list-group-item {
+    font-size: 11px
+} 
+
+/*
+.photo_view_detail{
+    padding-left: 0;
+}
+*/
+
+.photo_view_detail .list-group-item {
+    padding: 5px 15px 5px 7px;
+}
+
+.photo_row_dynamic_view
+, a.photo_clip_holder_big
+, a.photo_clip_holder_big:hover
+{
+    height: 182px;
+    width: 182px;
+}
+
+.mac-browsing-photo .caption h4{
+margin-top: 0;
+font-size: 14px;
+word-wrap:break-word;
+}
+.mac-browsing-video .caption h4{
+font-size: 14px;
+word-wrap:break-word;
+font-weight: normal;
+}
+.photo_hover_info
+{
+    width: 182px;
+    bottom: 8px
+}
+div.video_moderate_link{
+    right:5px;
+    left: auto;
+}
+
+.mac-element {
+margin-bottom:20px;
+}
+.mac-element .panel{
+    margin-bottom: 0
+}
+
+#mac-isotope{
+    width:100%;
+    margin:0 auto;
+}
+
+
+/* Browse users isotope */
+#js_controller_user_browse #mac-content .mac-user-filter-zip
+, #js_controller_user_browse #mac-content .mac-user-filter-city
+{
+display: none;
+}
+
+#js_controller_user_browse #mac-content .mac-user-filter-gender
+{
+padding-top: 25px
+}
+#js_controller_user_browse #mac-content .mac-user-filter-gender .mac-label{
+padding-top: 10px
+}
+#js_controller_user_browse #mac-content.col-lg-10{
+/*width:950px;*/
+}
+
+/*
+#js_controller_user_browse #mac-content.col-lg-10 .mac-element
+{
+width:232px;
+}
+*/
+
+/* horizontal filter users */
+#mac-content .mac-form-filter-user .mac-user-filter-box
+{
+/*float:left;max-width: 300px;*/
+/*padding:0;*/
+}
+#mac-content .mac-form-filter-user ul#js_user_browse_advanced_link.mac-user-filter-box 
+{
+    /*padding-top: 28px*/
+}
+.mac-btn-usr-flr-sbm{
+margin-top: 28px
+}
+#mac-left .mac-form-filter-user .mac-user-filter-box
+, #mac-right .mac-form-filter-user .mac-user-filter-box
+{
+width:100%!important;
+display: block;
+}
+
+#mac-left .mac-form-filter-user .mac-user-filter-box label.mac-label
+, #mac-right .mac-form-filter-user .mac-user-filter-box label.mac-label
+{
+display: block;
+}
+#mac-left .mac-form-filter-user .mac-user-filter-box label
+, #mac-right .mac-form-filter-user .mac-user-filter-box label
+{
+margin-right: 10px
+}
+#mac-left .mac-form-filter-user .max-user-filter-btns .btn
+, #mac-right .mac-form-filter-user .max-user-filter-btns .btn
+{
+width:100%;
+}
+
+/* to do check */
+.row_featured_link, 
+.row_sponsored_link, 
+.row_pending_link {
+    border-radius: 6px 6px 6px 6px;
+    left: auto;top:0;
+    line-height: 22px;
+    margin-top: -12px;
+    padding: 0 7px;
+    position: absolute;
+    z-index: 10;
+}
+
+#js_controller_music_index .row_featured_link {
+left: -5px;top:-10px;
+}
+
+/*photo>comment share fix*/
+
+/*
+social share links
+#js_controller_photo_view .feed_share_custom 
+{
+margin-right: 100px
+}
+
+.mac-share-links-wrap{
+position:fixed;right:5px;top:50%    
+}*/
+.mac-share-links-wrap div.feed_share_custom_block
+{
+    /*float: right;
+    width: 80px;
+    margin-left: 10px;*/
+}
+
+#js_controller_photo_view .comment_mini_link_like .mac-btn-group
+{
+   /*max-width: 50%; */
+   margin-top: 10px
+}
+.page-is-mobile .feed_share_custom{display:none;}
+
+/* blog */
+#js_controller_blog_view .comment_mini_link_like .mac-btn-group 
+{
+    /*max-width: 66%;*/margin-top: 10px
+}
+
+/* Video */
+#js_controller_video_view .comment_mini_link_like .mac-btn-group 
+{
+max-width: 66%;margin-top: 10px
+}
+
+.play_link_img {
+    /*background: url("../image/layout/play.png") no-repeat scroll 0 0 transparent;*/
+    background:none;
+    top: -50%;
+    height: 40px;
+    left: 50%;
+    margin-left:-15px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 0;
+    width: 30px;
+    font-size: 30px
+}
+
+.video_info_box:hover
+{
+background: #eee
+}
+.video_rate_body{
+    margin-bottom:20px;
+}
+.mac_video_duration{
+right: 21px;
+top: 6px;
+}
+.video_duration{ bottom:auto; }
+
+div.video_moderate_link.mac_video_moderate_link{
+bottom:2px;
+right:5px;
+}
+.mac-browsing-video .caption h4{
+margin-top: 0;
+}
+.mac-browsing-video{ margin-bottom: 20px }
+
+.mac-img-fullwidth {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
+
+.mac-mini-alert{
+    padding:5px 12px 5px 12px;
+}
+
+/* Moderation link */
+a.moderate_link, a.moderate_link:hover {
+    background-image: url("../image/layout/moderate_link.png");
+    border-radius: 6px 6px 6px 6px;
+    bottom: 25px;
+    display: block;
+    line-height: 20px;
+    margin: 5px auto auto;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    text-decoration: none;
+    text-indent: -1000px;
+    width: 20px;
+}
+#js_controller_music_index a.moderate_link 
+, #js_controller_music_index a.moderate_link:hover {
+
+    bottom: 0;
+    right: 0;
+}
+
+.mail_holder a.moderate_link
+, .mail_holder a.moderate_link:hover {
+    right: -20px;bottom:auto;
+} 
+
+/* mail */
+.mail_holder{min-height: 80px}
+.mail_next_prev ul li a, 
+.mail_next_prev ul li a:hover 
+{
+    background: transparent;
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 30px;
+    text-indent: inherit;
+    padding-top: 10px
+}
+.mail_next_prev {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    position: absolute;
+    right: 0;
+}
+
+.mac-blog-browse a.moderate_link, 
+.mac-blog-browse a.moderate_link:hover{
+/*bottom:25px;*/
+}
+
+.mac_forum_mini_old a.moderate_link
+, .mac_forum_mini_old a.moderate_link:hover
+{
+  top:-15px;
+  left:0;
+  right:auto;
+  bottom:auto;
+} 
+
+/* Pages */
+.pages_profile_block a img{
+    width: 75px;
+    height: 75px;
+}
+.pages_edit_widget li.widget{
+    border:0;
+}
+.list-group .list-group-item a{
+    text-decoration: none
+}
+/*
+#js_controller_pages_index .btn-xs{
+  padding:2px;
+}
+*/
+.caption .col-lg-12{
+  padding:0;
+}
+
+/* comments */
+.mac-browse-pages .comment_mini_link{
+    margin-top: 20px;margin-left: 0;
+}
+.mac-browse-pages .comment_mini_link_image{display:none;}
+
+
+
+/* action submenu */
+/*
+#section_menu2 ul li a img{
+    display: none;
+}
+*/
+#section_menu2 {
+    position: absolute;
+    right: 0;
+    top: 3px;
+}
+
+/*
+#js_controller_user_setting #section_menu2 {
+position: static;
+right: auto;
+top: auto;
+max-width: 600px;
+margin-left:auto;
+margin-right:auto;
+padding:15px;
+}
+*/
+/* Landing */
+.mac-btn-join-now{
+    max-width: 400px;
+    margin:0 auto;
+}
+
+.captcha_holder{
+    width:100%;
+}
+
+
+/* User > Auth */
+
+/* Request password */
+#js_controller_user_password_request #content_holder{
+    max-width:600px;
+    margin:auto;
+    padding:15px;
+}
+
+
+/* Wall */
+.feed_share_holder {
+ max-width: 500px; /* to do check with mobile and other browser */
+}
+.comment_mini_action a{margin-left:5px;}
+.js_feed_view_more_entry_holder{padding:3px}
+
+/* feed btns effect hover */
+.js_feed_view_more_entry_holder:hover {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.page-no-mobile .js_feed_view_more_entry_holder .comment_mini_link_like
+, .page-no-mobile .timeline_holder .comment_mini_link_like
+{
+  visibility: hidden;
+}
+.page-no-mobile .js_feed_view_more_entry_holder:hover .comment_mini_link_like 
+, .page-no-mobile .timeline_holder:hover .comment_mini_link_like 
+{
+  visibility: visible;
+}
+body .js_box_image_holder_full .comment_mini_link_like
+{
+  visibility: visible !important;
+  margin-top: 10px
+}
+.page-no-mobile .comment_mini_action
+{
+  visibility: hidden;
+}
+.page-no-mobile .comment_mini_content:hover .comment_mini_action
+, .page-is-mobile .comment_mini_action
+{
+  visibility: visible !important;
+}
+/* end feed btns effect hover */
+
+
+a.photo_box_photo_detail
+{
+    display: none;
+}
+.feed_sort_order a.feed_sort_order_link, 
+.feed_sort_order a.feed_sort_order_link:hover {
+  background:#fff;
+  padding: 0 12px 0 12px;
+  font-size: 13px;
+  top: -9px;
+  text-decoration: none;
+}
+
+.js_feed_comment_process_form {
+    margin-top:10px;
+    background: transparent;
+    border-radius:0;
+    color: #222;
+    font-weight: bold;
+    padding:0;
+    text-align: right;
+    z-index: 700;
+    /*display:block!important;*/
+}
+
+/* when use media style add this */
+.media-body .activity_feed_content{
+    margin:0;
+}
+
+#js_controller_core_index-member
+, #js_controller_feed_index 
+{
+padding-top:20px;
+}
+
+/* view more feed */
+a.activity_feed_content_view_more
+, a.activity_feed_content_view_more:hover
+{
+font-weight:normal
+}
+
+/* shared box */
+.label_flow_menu ul li a
+, .label_flow_menu ul li a:hover
+{
+    font-weight:normal;
+    text-decoration: none;
+}
+
+
+/* mixed links color */
+/*
+.row_feed_loop .js_feed_comment_border ul li a
+, .row_feed_loop .js_feed_comment_border ul li a:hover
+, 
+*/
+.activity_feed_content_status ul li a
+, .activity_feed_content_status ul li a:hover
+{
+color:#999;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+}
+.btn-link i{
+    font-size: 16px
+}
+
+/* fix issue when btn 
+.row_feed_loop .js_feed_comment_border ul li a
+, .row_feed_loop .js_feed_comment_border ul li a:hover 
+{
+color:#fff
+}
+
+.comment_mini_action ul li a
+, .comment_mini_action ul li a:hover
+{
+color:#999!important;
+}
+ */
+
+
+/* Video add */
+.page_section_menu_header{
+    height:auto;
+}
+
+@media (min-width: 768px) {
+      #js_controller_video_add #mac-content #js_video_form
+    , #js_controller_video_add .page-header
+    , #js_controller_photo_add #mac-content #js_photo_form
+    , #js_controller_photo_add .page-header 
+    , #js_controller_user_setting #site_content 
+    , #js_controller_user_setting #breadcrumb_holder 
+    {
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:15px;
+    }
+}
+@media (max-width: 767px) {
+
+    #mac-left .mac-form-filter-user {
+        display: none
+    }
+}
+
+.mass_uploader_table{
+    width:auto;
+}
+
+
+/* custom blocks */
+.mac-user-profile-pic
+{
+    margin-bottom:20px;
+}
+.mac-user-profile-pic a 
+{
+}
+.mac-user-profile-pic a img
+{
+
+}
+.mac-list-share-links li a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.mac-list-share-links li a i{
+    font-size:15px;
+}
+
+
+
+/* Mail > Compose */
+.global_attachment{
+    border:0;
+}
+
+/* Pages > add */
+.pages_type_add_holder{
+width:32%
+}
+.pages_add_category select{
+width:100%
+}
+.pages_sub_category{
+margin-left:0
+}
+.pages_add_category{
+float:none
+} 
+.js_friend_search_form{
+width:100%!important
+}
+#js_event_current_image img{
+margin-bottom:10px
+}
+
+
+a.page_section_menu_link, 
+a.page_section_menu_link:hover 
+{
+    /*background: #428BCA;
+    color: #fff;*/
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    a.page_section_menu_link {
+        display: none
+    }
+}
+
+.form-horizontal.mac-form-page-add .control-label{
+text-align:left
+}
+
+/* pf message */
+#js_is_page div.js_no_feed_to_show{
+height:auto
+}
+
+.table{
+margin-bottom:0
+}
+
+#privacy_holder_table .table:hover {
+    background: #f1f1f1;
+}
+
+/* layout - check this!!  --- removed for new seo-friendly layout ---
+#mac-content.col-lg-10{
+padding-right:0;
+}*/
+
+/* fix issue with bootstrap3 rc1 ---- can be removed with seo-friendly layout
+#mac_inner_container.row{
+
+margin-left:0;
+margin-right:0;
+
+} */
+
+/* privacy */
+.activity_feed_form_button_position .mac_privacy_setting_div{
+float:right;
+}
+
+/* shoutbox */
+.mac_shoutbox_date{
+font-size: 10px;
+}
+
+.js_shoutbox_messages.media .media-heading{
+    font-size:13px;
+} 
+
+.mac_shoutbox_delete{
+    position:absolute; right:15px
+}
+
+.mac_shoutbox_delete a {
+    text-decoration: none
+}
+
+
+/* mass uploader */
+.swf_upload_text_holder
+, .swf_upload_text
+, .swf_upload_holder
+, .swf_upload_holder object
+{
+    width:100% !important;
+}
+
+/* Blog  */
+.mac-blog-browse .mac-html-preview img 
+, .mac-blog-browse .mac-html-preview br
+, .mac-blog-browse .mac-html-preview h1
+, .mac-blog-browse .mac-html-preview h2
+, .mac-blog-browse .mac-html-preview h3
+, .mac-blog-browse .mac-html-preview h4
+, .mac-blog-browse .mac-html-preview h5
+, .mac-blog-browse .mac-html-preview h6
+{
+display: none;
+}
+
+.mac-blog-browse .parsed_image{
+display:block!important;
+width:100%;
+max-width: 100%;
+height: auto;
+}
+
+#js_category_content{
+height:200px!important; 
+}
+#js_add_category{
+    height: 33px
+}
+.js_global_attach_link_ajax,
+.js_global_attach_link_ajax_add{
+    margin:15px;
+}
+
+/* attachment */
+.js_global_attach_value_custom{
+height:46px;
+}
+
+
+#js_friend_sort_holder div.row1
+, #js_friend_sort_holder div.row2
+{
+padding-top:0;
+}
+.friend_row_holder{
+    height:60px;
+}
+
+a.friend_action_edit_list
+, a.friend_action_edit_list:hover
+, a.friend_action_edit_list_active
+, a.friend_action_edit_list_active:hover 
+{
+    background-position: 0 0;
+    color:#333;
+}
+
+/* Bootstrap override */
+.badge{
+font-weight: normal
+}
+
+/* infinitescroll
+#infscr-loading {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 50%;
+  margin-left:-150px;
+  z-index: 100;
+  background: #000;
+  opacity: 0.7;
+  padding:12px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  width:300px;
+}  
+*/
+
+#infscr-loading {
+  text-align: center;
+  margin:0 auto;
+  background: #000;
+  opacity: 0.7;
+  padding:12px 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  max-width: 200px;
+  border-radius: 3px
+}
+
+@media (max-width: 767px) {
+    #infscr-loading {
+      left: 20px;
+      margin-left: auto;
+      padding: 8px 0;
+      font-size: 12px;
+      width:200px;
+    } 
+}
+
+#mac_landing_cover_visitor_inner{
+    text-align: center;
+}
+#mac_landing_cover_visitor h1 span {
+    display: block;
+    font-size: 28px;
+}
+/*
+Alertnative Landing
+.page-core-index-visitor #mac_main_container.container{
+    width:100%!important;
+    max-width:100%!important;
+    margin-top:-30px;
+}
+#mac_landing_cover_visitor_inner{
+    width:1170px;
+    margin: 0 auto;
+}
+#mac_landing_cover_visitor h1 {
+    color: #000000;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 1;
+    padding: 10px 10px 0;
+}
+#mac_landing_cover_visitor p.mac-big-text {
+    color: #999;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 1.25;
+    padding: 20px 50px 50px;
+} 
+#mac_landing_cover_visitor {
+    background-image: url("../image/covers/default-cover.png");
+    background-size: cover;
+    width: 100%;
+}
+*/
+
+/* Search */ 
+.mac-form-search .input-group .form-control.input-lg{
+    height:46px;
+} 
+
+/* User > Account & Privacy */
+#js_controller_user_privacy .mac_privacy_setting_div{
+float:right;
+}
+
+#privacy_holder_table .row h4{
+font-size:14px;
+text-transform:uppercase
+}
+
+/* Browse Users */
+ul#js_user_browse_advanced_link{
+padding-left:0
+}
+
+.mac-form-filter-user .mac-icheck-wrapper{
+
+}
+
+#mac-content .mac-form-filter-user .mac-icheck-wrapper label{
+float:left; margin-right:10px
+}
+
+label > div:first-child
+, label > span > div:first-child
+{
+    float:left;margin-right: 10px
+}
+
+.mac-form-filter-user .mac-icheck-wrapper br{
+    display: none
+}
+.user_browse_mutual_friend a
+, .user_browse_mutual_friend a:hover
+{
+
+    color:#222;
+}
+
+/* bootstrap fix issue 
+.btn-group-justified .btn{
+    width:auto!important;
+}
+*/
+
+#feed_view_more_loader{
+height: 100px
+}
+
+.mac-time-small
+{
+    display:block;font-size:11px;margin-top:5px
+}
+/* Poll  */
+.mac-element-poll .media-body
+, .mac-el-visible{
+    overflow: visible!important
+}
+#js_poll_form{
+    max-width: 600px;
+    margin:0 auto;
+}
+
+#global_attachment_poll{
+  height:100%;
+  min-height: 200px;
+}
+
+.mac-icheck-wrap label
+{
+    margin-right: 20px;
+}
+
+.mac-icheck-wrap label > div{
+float:left!important;
+position: static!important
+}
+
+/* Forum */
+.forum_header_menu .mac-btn-share{
+    margin-top:8px;margin-left:8px
+}
+.mac-forum-post-box .mac-btn-group a{
+float: none!important;
+}
+.mac-forum-post-box .mac-btn-group {
+    max-width: 60%!important
+}
+/*
+.feed_comment_extra a{
+    font-size: 11px
+}
+*/
+.forum_header_menu {
+    position: static;
+    right: auto;
+    top: auto;
+}
+
+.mac-forum-list-box {
+
+}
+.mac-forum-list-box a{
+  text-decoration: none
+}
+.mac-forum-list-box a i {
+font-size: 38px
+}
+a.forum_title_link, a.forum_title_link:hover{
+  font-size: 20px;
+  margin-top:0;
+  padding-top:0;
+}
+.mac-forum-list-box h2 {
+  font-size: 20px;
+  margin-top:0;
+  padding-top:0;
+}
+a.forum_thread_link, a.forum_thread_link:hover{
+  font-size: 20px;
+  margin-top:0;
+  padding-top:0;
+}
+.table_row{
+  margin:0;
+  border:0;
+}
+.forum_header_menu .dropdown-menu{
+    left:auto;right:0;
+} 
+.forum_header_menu .form-control{
+    height:33px;
+}
+.mac-forum-post-box .mac-img-fullwidth{
+  max-width: 200px
+}
+
+.mac-form-form-search-menu{
+    min-width:220px;
+    padding:10px;
+}
+.forum_header_menu label{
+    margin-left:10px;
+}
+.forum_header_menu .btn-block{
+margin: 0 10px;
+width:200px;
+}
+/*
+.forum_header_menu {
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+*/
+.forum_header_menu .nav > li > a{
+padding:8px;
+border-radius: 0;
+}
+
+.mac-mrg-tp
+{
+    margin-top:10px;
+}
+.mac-mrg-btm
+{
+    margin-bottom:10px;
+}
+.mac-mrg-btm-2x
+{
+    margin-bottom:20px;
+}
+
+
+    div.js_ad_space_parent div.ad_space div a img{
+        width:100%!important;
+        height: auto!important
+    }
+
+/* quiz */
+.answers_holder a
+, .answers_holder a:hover
+{
+    text-decoration: none;
+  /*  font-size: 20px */
+}
+.correctAnswer {
+    background-color: #ddd;
+}
+#removeQuestion a{
+    text-decoration: none;
+}
+.answer_parent {
+    border-collapse: separate;
+    display: table;
+    position: relative;
+}
+.answer_parent .form-control:not(:first-child):not(:last-child) 
+{
+    border-radius:0;
+   /*
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    */
+}
+.js_arrow_up_down
+{
+    cursor: move;
+}
+
+/* event */
+
+/* Fix icheck */
+/*
+#js_block_border_event_rsvp form .p_2
+{
+margin-bottom:20px;
+}
+*/
+.mac-icheckbox label div
+{
+    float:left;
+    margin-right:10px;
+}
+.mac-icheckbox label
+{
+    margin-bottom:20px;
+}
+/* end fix icheck */
+
+
+
+/* notify */
+#js_new_message_holder_drop
+{
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+#js_new_message_holder_drop a.main_link
+{
+text-decoration: none;
+color:#222;
+}
+.navbar-mobile.navbar-inverse #js_new_message_holder_drop a.main_link{
+    color:#fff;
+}
+
+.main_link{
+font-weight: normal!important
+}
+.main_link.is_new
+, .main_link.is_new .drop_data_user{
+font-weight: bold!important
+}
+
+.mac-notify-box .dropdown-menu
+{
+    min-width: 300px
+}
+#js_new_message_holder_drop li
+{
+margin-bottom: 15px
+}
+#js_new_friend_holder_drop
+, #js_new_notification_holder_drop
+{
+    padding-left:7px;
+}
+#js_new_notification_holder_drop{
+    padding-top: 7px
+}
+.drop_data_content{
+font-size:11px
+}
+
+.holder_notify_drop_data{
+margin-bottom:10px
+}
+
+/* megamenu */
+.mac-boot-megamenu .mac-pad
+, .mac-pad{
+padding:10px 20px;
+}
+
+.mac-xl-icon{
+    font-size: 60px
+}
+
+.mac-xxl-icon{
+    font-size: 100px
+}
+
+/* photo */
+
+.page-photo-add .js_box_image_holder {
+  top:-20px;
+  height:120%;
+}
+.js_box_image_holder_full
+{
+  top:0;
+}
+body > div#js_style_holder
+{
+  top:50px;
+  background: #FFFFFF;
+  border-bottom: 5px solid #ddd;
+  left: 0;
+  width: 100%;
+  z-index: 1008;
+}
+
+.mac-center-box
+{
+margin:0 auto;
+max-width:600px;
+}
+
+.mac-social-connect{
+text-align: center;
+}
+.mac-social-connect-heading{
+    text-align: center;margin-bottom: 25px;margin-top: 25px
+}
+
+/* currency select on user > account */
+#mac-select-currency{
+    height:50px;
+}
+
+/* Moderation */
+
+
+a.moderation_drop
+, a.moderation_drop:hover {
+    display: block;
+    line-height: 24px;
+    width: 200px;
+}
+a.moderation_action_unselect
+, a.moderation_action_unselect:hover
+, a.moderation_action_select
+, a.moderation_action_select:hover
+{
+display: block;
+line-height: 24px;
+padding: 0 8px;
+position: absolute;
+right: 10px;
+top:8px;
+}
+.moderation_holder ul {
+left: auto;
+list-style-type: none;
+padding: 0;
+position: absolute;
+width: 200px;
+z-index: 500;
+margin-top: auto!important
+}
+
+
+
+/* Pages */
+.mac_sub_section_menu ul li
+{
+
+}
+.mac_sub_section_menu ul li a i
+, #js_is_user_profile ul.list-group li a i
+{
+padding-right: 5px;
+}
+.block_listing_title{
+word-wrap: break-word;
+}
+
+#js_controller_core_index-visitor #mac-content.col-lg-12 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.page-fullgrid #mac-isotope .mac-element
+/*, 
+.page-fullgrid.page-photo-index .mac-browsing-video.mac-element
+, .page-fullgrid.page-photo-index #mac-isotope.mac-blog-browse .mac-element 
+*/
+{
+    max-width: 100% !important;
+}
+
+.mac-navbar-main{
+margin-right:-15px !important;
+}
+
+
+.mac-share-txt.form-control.input-lg 
+{
+/*min-height: 70px*/
+}
+
+
+
+/* isotop items animation 
+.isotope .isotope-item {
+-moz-transition-property: -moz-transform, opacity;
+-ms-transition-property: -moz-transform, opacity;
+-o-transition-property: top, left, opacity;
+transition-property: transform, opacity;
+-webkit-transition-property: -webkit-transform, opacity;
+}
+.isotope .isotope-item {
+-moz-transition-property: -moz-transform, opacity;
+-ms-transition-property: -moz-transform, opacity;
+-o-transition-property: top, left, opacity;
+transition-property: transform, opacity;
+-webkit-transition-property: -webkit-transform, opacity;
+}
+.isotope-item {
+-moz-transition-duration: 0.8s;
+-ms-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.8s;
+-webkit-transition-duration: 0.8s;
+z-index: 2;
+}*/
+
+/*
+@media (max-width: 767px) {
+    .thumbnail img{
+        min-width:100%;
+        height:auto;
+    }
+}
+*/
+
+/* Error > 404 */
+.page-error-404 #breadcrumb_holder{
+    display: none;
+}
+
+/*
+.comment_mini_action ul li a.quickEdit
+, .comment_mini_action ul li a.quickEdit:hover
+, .comment_mini_action ul li .mac-link-dark
+, .comment_mini_action ul li .mac-link-dark:hover
+{
+    color:#333 !important
+}
+*/
+.js_dislike_link_holder a
+, .js_like_link_holder a
+, .js_dislike_link_holder a:hover
+, .js_like_link_holder a:hover{
+    color:#222;
+    text-decoration: none;
+}
+
+
+input:required:invalid {
+  color: #b94a48;
+}
+
+a.mac-nounderline:hover
+{
+    text-decoration: none
+}
+
+/* share location */
+.media.media-location
+{
+overflow:visible !important
+}
+#js_location_input{display:none}
+#js_add_location_suggestions{height:100px;display:none}
+.js_div_place{width:100%;display:block;clear:both;margin-bottom:5px;color:#222;background:#f1f1f1}
+.js_div_place:hover{background:#f1f1f1;color:#222}
+
+
+/* tag */
+#noteform {
+    box-shadow: none;
+    color: #222;
+}
+#NoteNote{
+display:inline!important;
+width:200px!important;
+
+}
+
+/* popover */
+.js_user_tool_tip_holder.popover.bottom .arrow{
+    left:10%;
+}
+
+/* privacy */
+.js_custom_search_friend_holder ul li:hover{
+background:#f1f1f1;
+}
+
+
+div.tooltip{min-width: 100px}
+
+.page-mobile #js_share_content a{ font-size: 11px }
+
+
+/* test this with all modal form */
+.js_box_content form .form-control{
+    /*max-width: 260px*/
+    max-width:100%;
+}
+/*
+.js_box_content form .mac-form-small-input .form-control{
+max-width: 300px
+}
+*/
+.row_featured_link
+, .row_sponsored_link
+, .row_pending_link
+{
+border: 0;font-weight: normal;
+}
+
+#header_search_form
+{ 
+padding:0;
+}
+
+.page-is-mobile .photo_rotate {
+    display: none
+}
+
+/* announcement */
+div#announcement {
+margin-bottom: 10px;
+margin-top: 10px;
+border-left: 0px;
+border-top: 0px;
+border-right: 0px;
+padding: 10px;
+border: 1px solid #ddd;
+background-color: #f5f5f5;
+position: relative;
+}
+div#announcement .js_announcement_close {
+position: absolute;
+right: 0;
+top: 0;
+margin-top: -15px;
+margin-right: -10px;
+}
+div#announcement .js_announcement_close a:hover{
+    text-decoration: none;
+}
+
+.mac-txt-100{
+    width:100% !important;
+}
+.dropdown-menu{
+    z-index:1001;
+}
+
+.select2-container img.flag
+, .select2-results li img.flag
+{
+height: auto; width: auto; padding-right: 10px;
+}
+
+#mac-content .mac-form-filter-user.form-horizontal .mac-label
+{
+    display: none;
+}
+
+.mac-w-200{
+    max-width: 200px
+}
+
+#js_user_browse_advanced .form-control.mac-w-200
+{
+    display: inline;margin-right:10px;
+}
+
+#mac-isotope{
+    opacity: 0
+}
+
+.mac-user-profile-pic a.mac-user-link
+{
+font-size: 14px; margin-right: 5px
+}
+.mac-user-profile-pic a.mac-user-link:hover{
+    text-decoration: none;
+}
+.mac-user-profile-pic h4.media-heading {
+    font-size: 13px
+}
+
+/*
+.new_quote_content{
+    background:#f1f1f1;
+}
+*/
+
+
+.js_feed_view_more_entry_holder
+{
+    margin-bottom: 10px
+}
+
+
+.mac-btn-login-as-page{
+    margin:0 10px;
+}
+/*
+div#divFileInput {
+width: 200px !important;
+height: 37px !important;
+overflow: hidden;
+}
+div#divFileInput input[type=file] {
+display: block !important;
+width: 200px !important;
+height: 37px !important;
+opacity: 0 !important;
+overflow: hidden !important;
+}
+*/
+
+#js_album_content .dropdown-menu li a {
+
+text-align: left; /* right!important;*/
+
+}
+
+#mac-isotope
+{
+    overflow: visible!important; /* dont like this but is important for fix issue with drodown */
+}
+
+/*
+.mac-user-filter-age select 
+, .mac-user-filter-age .select2-container 
+{
+    width: 60px;
+    display: inline;
+}
+.mac-user-filter-box.mac-user-filter-age
+{
+    width:150px;
+}
+.mac-user-filter-age select 
+, .mac-user-filter-age .select2-container.form-control 
+{
+    display: inline!important;
+}
+*/
+.mac-user-filter-age .select2-container{
+    float: left;
+    margin-left: 10px;
+}
+
+.js_box_image_holder_full .comment_mini_link_like span{
+    display: none;
+}
+
+/*
+#js_controller_user_browse #mac-left
+{
+padding-right: 0
+}
+*/
+
+#js_controller_user_browse #mac-left .mac-user-filter-gender label
+{
+margin-right:2px
+}
+
+#js_controller_user_browse #mac-left .mac-user-filter-gender label .iradio_flat-mac
+{
+margin-right: 3px
+}
+#js_controller_user_browse .mac-element{
+    padding:0 5px;
+}
+body.mac-mobile-sidebar-on
+{
+    overflow: hidden;
+}
+/*
+@media (max-width: 768px) {
+#js_block_border_photo_category{
+    display:none;
+}
+}
+
+*/
+
+
+#mac-left .block .menu
+{
+    display: none;
+}
+
+
+
+select#day
+, select#month
+, select#year
+, .mac-user-filter-age select
+{
+    width:auto!important;
+    display: inline!important
+}
+
+
+/* responsive should be last */
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+
+    /* fix filter search bar */
+   .mac-navbar-search .navbar-collapse.mac-navbar-search-filters {
+      padding-right: 0;
+      padding-left: 0
+    }
+    .mac-navbar-search .navbar-collapse.mac-navbar-search-filters .navbar-right.navbar-form{
+    padding-right: 0
+    }
+
+    /* fix issue with chrome/safari browsers 
+    .mac-navbar-search .navbar-form
+    {
+       max-width:180px
+    }
+    .mac-navbar-search .navbar-form .form-control
+    {
+        max-width: 180px;
+    }*/
+    /* fix issue with chrome/safari browsers 
+    #js_controller_forum_index .mac-navbar-search .navbar-form
+    {
+       max-width:350px
+    }
+    #js_controller_forum_index .mac-navbar-search .navbar-form .form-control
+    {
+        max-width: 350px;
+    }*/
+    /*
+    .mac-navbar-search .navbar-form .form-control:focus
+    {
+        width: 200px;
+        -moz-transition: width 0.5s ease-out;
+        -webkit-transition: width 0.5s ease-out;
+        transition: width 0.5s ease-out;
+    }
+    
+    .mac-navbar-main #header_search_form.navbar-form{
+        max-width: 250px
+    }*/
+
+    /*
+    #header_search_form input.form-control
+    {
+        max-width: 300px
+    }
+    #header_search_form input.form-control:focus 
+    {
+        width: 400px;
+        -moz-transition: width 0.5s ease-out;
+        -webkit-transition: width 0.5s ease-out;
+        transition: width 0.5s ease-out;
+    }
+    */
+    
+}
+
+
+/* only phone */
+@media (max-width: 767px) {
+
+
+    #mac-welcome{
+        margin-top: 20px
+    }
+
+    /* reponsive theater mode */
+    .photo_view_box_comment
+    , div.row_title_image
+    {
+        width:0!important;
+        overflow: hidden!important;
+    }
+    .photo_view_box_image_holder
+    {
+        position: static!important;
+        margin: 0!important;
+        width:100%!important;
+    }
+    .js_box_image_holder_full .js_box
+    {
+        width:99%!important;
+        position: static!important;
+        margin: 0!important;
+    }
+    #photo_view_tag_photo{display: none;}
+    /* end reponsive theater mode*/
+
+    #mac-left .panel .panel-body
+    , #mac-right .panel .panel-body
+    , #mac-left .block .content
+    , #mac-right .block .content
+   /* , .mac-user-profile-pic*/
+    , .mac-list-share-links
+    {
+        display:none;
+    }
+
+    /*#js_controller_user_setting #content_holder
+    , #js_controller_user_remove #content_holder*/
+
+    /* to check this case 
+    #content_holder
+    {
+        padding-left: 15px!important
+    }
+
+    #js_controller_photo_index #content_holder {
+        padding-right: 0;
+    }
+    #js_controller_photo_index #content_holder {
+        padding-left: 0 !important;
+    }
+    */
+
+    /* only when content_holder = 15px */
+   /* #mac-content{ padding-left: 0 }
+
+    #mac-content{padding-right: 0}*/
+    /*
+    #breadcrumb_holder{
+        padding-left:15px
+    }*/
+    /*
+    #mac-content.col-lg-7{
+        padding-right:0; fix blank space on right side when mobile device 
+    }
+    
+    .mac_main_page_title{
+        padding-left:15px;
+    }*/
+
+  /* Forum */
+  .mac-forum-list-box a i {
+    font-size: 22px
+  }
+
+    /* Video & video comments btns */
+    #js_controller_photo_view .comment_mini_link_like .mac-btn-group
+    , #js_controller_video_view .comment_mini_link_like .mac-btn-group 
+    , #js_controller_blog_view .comment_mini_link_like .mac-btn-group 
+    {
+        max-width: 100%
+    }
+    
+    #js_photo_view_holder{
+        position: static!important;
+        left:auto!important;
+        margin-left:auto!important;
+    }
+    #js_photo_view_image{
+        width:100%!important;
+        height:auto!important;
+    }
+    .photo_view_detail {
+    padding-left: 15px;
+    }
+    .mac-btn-group .btn span
+    {
+        display: none;
+    }
+
+    #js_controller_user_browse #mac-content .mac-user-filter-box
+    {
+        display: block!important;
+        width:100%!important;
+        clear: both;
+        margin-bottom: 20px
+    }
+
+    #header_search_form
+    {
+        margin-left:10px;
+    }
+
+    .comment_mini_link_like
+    {
+        visibility: visible !important;
+    }
+
+    .media-body
+    , .media
+    {
+        overflow: visible;
+    }
+    .activity_feed_content_link
+    {
+        margin-top: 60px
+    }
+    div.activity_feed_content_image a.photo_holder_image img.photo_holder 
+    {
+        width:100%!important;
+        height: auto!important
+    }
+    .activity_feed_content_image 
+    {
+        float: none;
+        max-width: 450px;
+        overflow: hidden;
+        padding-right: 0;
+    }
+    /*div.js_ad_space_parent div.ad_space div a img{
+        width:100%!important;
+        height: auto!important
+    }*/
+    .comment_mini_action
+    {
+        visibility: visible!important
+    }
+    .comment_mini_action{
+        margin-top:20px;margin-left:-30px
+    }
+
+    .mac-browsing-photo.mac-element
+    , .mac-browsing-video.mac-element
+    , #mac-isotope.mac-blog-browse .mac-element
+    {
+        max-width: 100%!important;
+        /*width:232px!important;*/
+    }
+    
+    /* topmenu */
+    .btn-user-register
+    , .btn-user-login 
+    {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .btn-user-login 
+    , .btn-user-register
+    {
+        margin: 15px
+    }
+    
+} /* end max-width: 767px */
+
+
+@media (min-width: 768px) and (max-width: 1224px) {
+    .mac-user-profile-pic .btn-group-justified .btn{
+        padding-left:8px!important;padding-right: 8px!important;
+    }
+}
+/* only desktop */
+@media (min-width: 1200px) and (max-width: 1599px) {}
+
+/* */
+@media (max-width: 1023px) {
+
+    /*
+    #js_is_user_profile .profile_header_inner #section_menu2{
+        right:0;top:0
+    }
+    #js_is_user_profile .profile_header_inner h1
+    {
+        width:400px;
+        position:static;
+        left:auto;
+        top:auto;
+    }
+    #js_is_user_profile .profile_header_inner h1 a
+    {
+        color: #222!important;text-shadow: none;
+    }
+    #js_is_user_profile .profile_header_inner .profile_info
+    {
+        position:static;left:auto;top:auto;
+        text-shadow: none;
+    }
+    */
+}
+
+@media (min-width: 768px) {
+    /*
+    .navbar-mobile.navbar-inverse .holder_notify_drop_title{
+        color:#222!important;
+    }
+    
+    .navbar-mobile.navbar-inverse .drop_data_user
+    , .navbar-mobile.navbar-inverse .drop_data_time
+    {
+        color:#222!important;
+    }
+*/
+
+
+    .navbar-form.navbar-right:last-child{
+    margin-right:10px;
+    }
+
+
+
+}
+
+
+/* phone & tablet */
+@media (max-width: 991px) {
+
+.mac-user-profile-pic
+{
+    display:none;
+}
+
+/*#mac-content.col-xs-12{
+padding-left: 0!important
+}*/
+.photo_view_box_comment{
+width:300px;
+}
+    /*
+    to check this case
+    #content_holder {
+        padding-right:15px;
+        
+    }*/
+
+
+    /*#js_controller_core_index-visitor #content_holder
+    , #js_controller_feed_index #content_holder
+    {
+        padding-left:15px;
+        
+    }*/
+    #section_menu2 {
+        right:15px
+    }
+    .pages_type_add_holder {
+        width:100%
+    }
+    /*
+    #mac-left {
+        padding-right:0;
+    }
+    #mac-right {
+        padding-left:0;
+    }*/
+}
+
+#js_store_album_track .mejs-container{
+margin-top:30px;
+}
+
+.mac-enable-mediaelement audio
+, .mac-enable-mediaelement video{
+    display:none
+}
+.mac-enable-mediaelement video{
+    width:100%;
+    height:100%;
+}
+#main_registration_custom {
+    background: transparent;
+    border: 0;
+    border-radius:0;
+    padding: 0;
+    position: static;
+    right: auto;
+    width: 100%;
+}
+/* Mixin */
+
+
+
+/* ------------ map-registration landing page */
+
+/*
+#mac-map-registration-wrap.mac-landing-bg-cover{
+background-image:url('../image/covers/default-cover.png');    
+background-size: cover;
+width: 100%;
+}
+*/
+#mac-map-registration-wrap .user_register_holder{
+  background:transparent;
+}
+
+/* custom input
+#mac-map-registration-wrap .user_register_holder input 
+, #mac-map-registration-wrap .user_register_holder select
+{
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 10px;
+    outline: 0 none;
+    width: 100%;
+}
+#mac-map-registration-wrap .user_register_holder input{
+    padding: 10px;
+}
+#mac-map-registration-wrap .user_register_holder .input-group-addon{
+    display:none;
+}
+#mac-map-registration-wrap .user_register_holder .input-group{
+    width: 100%
+}
+#mac-map-registration-wrap .user_register_holder .form-control::-moz-placeholder
+, #mac-map-registration-wrap .user_register_holder .table_left
+, #mac-map-registration-wrap .user_register_holder .required
+{
+    color:#fff;
+} */
+/*end custom input*/
+
+/* ---------------- map-registration landing page */
+
+
+.js_box_content .t_center > div[id^='js_tmp_video_player_']{
+width:100% !important;
+height: auto !important;
+max-width: 600px
+}
+
+/*
+.mac-enable-mediaelement embed 
+, .mac-enable-mediaelement video 
+, .mac-enable-mediaelement object
+, .mejs-container
+, .mejs-mediaelement
+{
+    max-height: 360px!important;
+    max-width: 600px!important;
+    margin:auto;
+}
+*/
+
+
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -90px;
+  /* Pad bottom by footer height */
+  padding: 0 0 90px;
+}
+
+
+
+/* Set the fixed height of the footer here */
+#footer {
+height: 90px;
+text-align: center;
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method.
+body{
+   padding-bottom: 0
+} */
+
+body.page-navbar-fixed-bottom
+{
+   padding-bottom: 50px
+}
+
+#wrap > #mac_main_container
+{
+  padding: 70px 0 0;
+}
+
+#wrap > #mac-landing-wrapper{
+  padding: 70px 0 0;    
+}
+
+/*
+@media (max-width: 767px) {
+    #wrap > #mac_main_container{
+        padding: 80px 0 0;
+    }
+}
+*/
+
+/*
+body.page-is-page-profile #wrap > #mac_main_container
+{
+    padding: 40px 15px 0;
+}
+*/
+
+.active.list-group-item .list-group-item{
+background:transparent;
+border:none;
+}
+
+.page-core-index-visitor #wrap > #mac_main_container
+{
+    padding:0;
+}
+
+/**/
+.page-is-profile #wrap > #mac_main_container 
+, .page-is-page-profile #wrap > #mac_main_container
+{
+  padding: 0px 0 0;
+}
+
+
+.page-profile-private.page-is-profile #wrap > #mac_main_container {
+    padding:40px 0 0;
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* toggle block */
+
+    #mac-left .panel .panel-heading
+    , #mac-right .panel .panel-heading
+    , #mac-left .block .title
+    , #mac-right .block .title
+    {
+        cursor:pointer;
+    }
+
+/* dashboard blocks */
+#mac_dashboard_pages_block h4.media-heading
+, #mac_dashboard_video_block h4.media-heading
+, #mac_dashboard_blog_block h4.media-heading
+{
+
+font-size:16px
+
+}
+
+
+
+/* Welcome block */
+.welcome_info_holder_custom {
+    width: 300px;
+}
+.welcome_info_holder {
+    background-image:none;
+    background: #fff;
+    left: 0;
+    padding: 8px 0 0;
+    position: relative;
+    top:0;
+    z-index: 800;
+
+/*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);*/
+
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.welcome_info {
+    background: #fff;
+    box-shadow: none;
+    padding: 8px 8px 4px;
+}
+
+#global_attachment_video_file_input{ margin-bottom:10px }
+
+#logo.navbar-brand {
+    padding: 13px;
+}
+
+
+#core_info .badge a{
+    color:#fff;
+}
+
+/* multi file upload */
+.mac-photo-preview {
+height: 75px;
+border: 0;
+margin: 10px 5px 0 0;
+}
+#mac-photo-wrap {
+max-width: 100%;
+display: block;
+height: auto;
+white-space: nowrap;
+overflow-x: auto;
+overflow-y: hidden;
+}
+
+
+
+#wrap > #mac-landing-wrapper.mac-landing-type-mac {
+    padding: 0;
+}
+
+
+/* fix tooltip */
+.tooltip{
+    z-index: 2000
+}
+
+.mac-mrg-tp-sm{
+    margin-top:3px;
+}
+
+.mac-feed-link-visible.page-no-mobile .timeline_holder .comment_mini_link_like
+, .mac-feed-link-visible.page-no-mobile .js_feed_view_more_entry_holder .comment_mini_link_like
+{
+  visibility: visible;
+  opacity: 0.4;
+}
+.mac-feed-link-visible.page-no-mobile .comment_mini_action
+{
+  visibility: visible;
+  opacity: 0.4;
+}
+.mac-feed-link-visible.page-no-mobile .timeline_holder:hover .comment_mini_link_like
+, .mac-feed-link-visible.page-no-mobile .js_feed_view_more_entry_holder:hover .comment_mini_link_like
+{
+  opacity:1;
+}
+.mac-feed-link-visible.page-no-mobile .js_mini_feed_comment:hover .comment_mini_action
+{
+  opacity:1;
+}
+
+
+select.js_custom_search{
+    margin-bottom: 0!important
+}
+.user_browse_content .title{
+    margin-bottom: 20px
+}
+
+#browse_custom_fields_popup_holder
+{
+
+}
+
+/*
+.photo_edit_holder{
+    max-height: 500px;
+    overflow: auto;
+}*/
+
+#privacy_holder_table .table_left
+, #privacy_holder_table .extra_info
+{
+font-size: 14px    
+}
+
+#js_pages_block_detail .radio{
+    margin-bottom: 10px
+}
+#js_pages_block_detail .input-group{
+margin-top:20px;
+}
+.js_uploader_files_input{
+    margin:0;
+}
+
+
+
+
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 15px
+}
+
+
+
+.mac-user-filter-box.mac-user-filter-gender label {
+font-size: 11px
+}
+
+#macOpenAdvancedSearch{
+    margin-bottom:20px;
+}
+
+.active.list-group-item ul {
+padding-left:8px;
+}
+
+
+
+/*
+@media (min-width: 768px) {
+    
+    .mac-element-poll
+    , .mac-element-poll
+    {
+    width:48%!important;
+    }
+}
+*/
+
+.mac-text-indent {
+    padding-left: 30px
+}
+
+
+
+
+/* responsive feed images */
+.activity_feed_content_image
+{   
+    max-width:100%; 
+    height:auto;
+}
+
+.activity_feed_content_image img
+{
+    /*width:100%;  */ 
+    width:auto;
+    max-width:100%; 
+    height:auto;
+}
+
+.timeline_holder .activity_feed_content_image
+{
+    max-width:100%; 
+    height:auto;
+}
+
+.timeline_holder .activity_feed_content_image img
+{
+    max-width:100%; 
+    height:auto;
+}
+
+
+/* isotope feed */
+
+.mac-feed-box .media{
+
+    padding:3px;
+
+}
+
+.mac-feed-isotope {
+
+    
+
+}
+
+/*
+.mac-feed-isotope {
+opacity: 0
+}
+.mac-feed-isotope .media
+, .mac-feed-isotope .media-body {
+overflow: visible;
+}
+.mac-feed-isotope .activity_feed_content_link {
+    margin-top: 60px
+}*/
+
+
+
+/* logo image better padding 6px or 8px */
+#logo.navbar-brand{
+padding:6px!important
+}
+/* fix min-height for textarea issue */
+#global_attachment_status textarea{
+min-height:50px
+}
+
+.mac-feed-box .media-object
+{
+    height:50px;
+    width:auto;
+    max-width: 100px;
+}
+
+
+
+/* New header */
+
+.page-header-type-style2 #mac-form-top-search{
+margin:0 15px;
+}
+#mac-header-userpic{
+height:32px;
+width:32px; 
+}
+.page-header-type-style2 .navbar-nav > li#mac-user-setting-top-menu > a {
+height: 50px;
+padding-bottom: 3px;
+padding-top: 10px;
+}
+/* end new header */
+
+
+.badge a{
+    color: #fff
+}
+
+
+
+
+
+/* required for new seo-friendly layout 
+#breadcrumb_holder
+{
+    padding-left:15px;
+    padding-right: 15px
+}*/
+
+/* check this with all device/browser/os 
+#content_holder > .page-header {
+    margin-left: 15px;
+    margin-right: 15px;
+}*/
+
+
+
+
+
+
+
+/* go to top */
+
+body .mac-go-top-2{
+position: fixed;
+left:10px;
+bottom:10px;
+z-index: 100;
+}
+
+body .mac-infsc-pause {
+}
+body .mac-infsc-resume {
+}
+
+/* new for isotope photos */
+body .mac-element.mac-browsing-photo .img-responsive
+, body .mac-marketplace-element .img-responsive {
+    margin-left:auto;margin-right:auto;
+}
+
+.marketplace_image a img {
+    width:100% !important;
+    height: auto !important;
+    max-width: 180px 
+}
+
+/*
+@media (min-width: 992px) {
+    #header_sub_menu_search{
+        width: 180px
+    }
+    #header_sub_menu_search_input {
+    width: 150px;
+    }
+    #header_sub_menu_search_input:focus {
+    width: 150px;
+    }
+}
+*/
+/* search menu style2 */
+#header_sub_menu_search
+{
+    width:280px
+}
+#header_sub_menu_search.mac_is_focus
+{
+    width:430px
+}
+#mac-search-filter-input-form
+{
+    width: 190px;
+}
+#mac-search-filter-input-form.mac_is_focus
+{
+    width: 290px;
+}
+#mac-search-filters-input {
+width: 160px;
+}
+#mac-search-filters-input:focus {
+width: 260px;
+}
+.mac-navbar-search-filters .form-control
+, #header_sub_menu_search_input
+, #header_sub_menu_search
+, .mac_is_focus
+, #mac-search-filter-input-form
+{
+    -webkit-transition: width .5s ease-in-out;
+    -moz-transition:width .5s ease-in-out;
+    -o-transition: width .5s ease-in-out;
+    transition: width .5s ease-in-out;
+}
+
+/*
+@media (min-width: 1200px) {
+
+    #header_sub_menu_search_input {
+    width: 250px;
+    }
+    #header_sub_menu_search_input:focus {
+    width: 400px;
+    }
+    #mac-search-filters-input {
+    width: 160px;
+    }
+    #mac-search-filters-input:focus {
+    width: 260px;
+    }
+}
+*/
+
+
+.js_box_content .row1
+, .js_box_content .row2
+{
+margin:5px auto;
+}
+
+.mac-browse-pages .like_count_link_holder{
+    display: none;
+}
+
+
+
+/* mac ajax mail */
+@media (min-width: 768px) {
+
+    
+    #js_block_border_macajaxmail_myfriend{
+        overflow: hidden;
+    }
+    #js_block_border_macajaxmail_myfriend
+    {
+    max-height:400px;
+    overflow:auto
+    }
+    #js_block_border_macajaxmail_myfriend.mac_fixed{
+    margin-top: 60px;
+    position: fixed;
+    top: 0;
+    width:180px;
+    }
+    #js_block_border_macajaxmail_myfriend div.row_title_image{
+    position: static;
+    }
+    #js_block_border_macajaxmail_myfriend div.row_title_info {
+    margin-left: 0;
+    }
+
+}
+/* end mac ajax mail */
+
+
+
+body .js_comment_feed_textarea.form-control.input-lg:focus
+{
+min-height: 100px!important;
+}
+
+
+
+
+/* feed btns effect hover */
+.mac-feed-isotope .js_feed_view_more_entry_holder:hover {
+    box-shadow:none;
+}
+.mac-feed-isotope .media {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/* fix theater mode
+.photo_view_box_image_holder{
+left: 70px !important;
+top:20px !important;
+margin:auto !important
+}
+.photo_view_box_image_holder a img {
+width:auto !important;
+height:auto !important;
+max-height:500px !important;
+max-width:700px !important;
+}
+*/
+
+/*
+.mac-megamenu .navbar-nav > li#mac-user-setting-top-menu > a {
+padding-top:14px
+}*/
+
+
+/* long dropdown */
+ul.dropdown-menu {
+    overflow-y: auto;
+    overflow-x:hidden;
+    max-height: 450px;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    min-width: 200px
+}
+
+/* ajax loader */
+#mac-ajax-spinner {
+display: none;
+position: fixed;
+top:50%;
+left:50%;
+margin-left:-50px;
+margin-top:-50px;
+width:100px;
+height:100px;
+z-index:10005
+}
+body.loading #mac-ajax-spinner {
+display: block;
+}
+body.loading #wrap {
+background:#fff;
+opacity: 0.6
+}
+
+/*
+.page-header {
+    margin-left:15px;
+    margin-right: 15px
+}
+*/
+
+a.pages_type_add_inner_link
+, a.pages_type_add_inner_link:hover {
+    height:258px !important;
+    line-height:258px !important;
+}
+.pages_type_add_form {
+    padding: 0;
+}
+
+a.pages_type_add_inner_link span {
+padding-top: 0!important
+}
+/*
+#js_pages_add_holder {
+  -o-transition:1.1s;
+-ms-transition:1.1s;
+-moz-transition:1.1s;
+-webkit-transition:1.1s;
+transition:1.1s;
+}
+*/
+a.pages_type_add_inner_link {
+  -o-transition:.3s;
+-ms-transition:.3s;
+-moz-transition:.3s;
+-webkit-transition:.3s;
+transition:.3s;
+}
+
+a.pages_type_add_inner_link
+, a.pages_type_add_inner_link:hover {
+    background: #f1f1f1;
+    color: #222;
+    font-size: 14px;
+    padding: 0;
+    position: static;
+    border:6px solid #fff;
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    word-wrap: break-word;
+}
+a.pages_type_add_inner_link:hover {
+    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    border:6px solid #f1f1f1;
+    font-size: 17px;
+}
+
+.mac-page-add-box {
+margin-bottom: 20px
+}
+
+/* hide breadcrumb */
+#js_controller_pages_add #breadcrumb_holder {
+display: none;
+}
+
+.mac-page-add-box .panel {
+    margin-bottom: 0
+}
+.pages_type_add_form{
+    height:258px;
+}
+
+.forum_content img{
+    max-width: 100%
+}
+
+
+/* TO DO :: check this on all device/browser/os */
+body .mac-col-fullwidth #section_menu2 {
+    right:0!important;
+}
+
+
+@media (max-width: 991px) {
+
+    #header_sub_menu_search {
+        width:120px!important;
+    }
+    #header_sub_menu_search.mac_is_focus {
+        width:180px!important;
+    }
+}
+
+
+body .mac-fix-hidden-field .hidden-xs {
+display:inline-block!important
+}
+
+
+#mac_landing_cover_visitor {
+    margin-top:-20px;
+}
+
+
+
+
+/* for .modal box */
+/* check also thickbox.js 694 and 433 - 451 and line 704 */
+body .js_box.modal {
+    bottom: 0 !important;
+    left: 0 !important;
+
+    overflow-x: auto !important;
+    overflow-y: scroll !important;
+
+    position: fixed !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 1040 !important;  
+    margin-left:auto!important; 
+}
+.js_box_close.modal-footer a
+, .js_box_close.modal-footer a:hover {
+top:0;  
+}
+.js_box_title.modal-header {
+    cursor: default;
+}
+
+body.page-is-mobile.page-profile-index.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2
+,body.page-is-mobile.page-pages-view.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 {
+right: 0 !important;
+}
+/* end */
+
+
+#timeline_dates {
+    margin-top:94px;
+}
+
+
+
+#mac-isotope .mac-browsing-video.mac-element {
+    max-width: 150px !important;
+}
+
+
+
+.pager_container {
+    clear:both;
+}
+
+
+
+.photo_hover_info_actions_counter {
+    position: static;
+}
+
+@media (max-width: 767px) {
+    .mac-infsc-controls {
+        display: none !important
+    }
+}
+
+/*
+#mac-isotope {
+    -webkit-transform: translateZ(0px);
+    -webkit-transform-style:flat;
+}
+*/
+
+.mac-infsc-controls {
+    margin-right: 10px
+}
+
+.mac-navbar-search.mac-navbar-search-fixed {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1059;
+}
+
+.pager_links_holder .extra_info {
+    display: none;
+}
+
+
+#js_block_border_macore_loglogin .content {
+    padding-left:1px;padding-right: 0;
+
+}
+
+
+
+
+#js_block_border_macore_loglogin .content a img 
+, .mac-panel-pages-apps .panel-body a img 
+{
+    width: 80px;
+    height: 80px;
+}
+
+#js_block_border_macore_friendonline .panel-body a img
+{
+    width: 80px;
+    height: 80px;
+}
+
+#sFriendInput {
+    width:80%!important;
+}
+
+/* to do check this */
+.radio, .checkbox {
+    padding-left:0;
+}
+
+
+/* for .modal box */
+/* be sure to upload also thickbox.js */
+body .js_box.modal {
+    bottom: 0 !important;
+    left: 0 !important;
+
+    overflow-x: auto !important;
+    overflow-y: scroll !important;
+
+    position: fixed !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 1040 !important;  
+    margin-left:auto!important; 
+}
+.js_box_close.modal-footer a
+, .js_box_close.modal-footer a:hover {
+top:0;  
+}
+.js_box_title.modal-header {
+    cursor: default;
+}
+
+
+.feed-type-photo .media
+, .feed-type-photo .media-body
+, #js_new_feed_comment .js_temp_new_feed_entry .media
+, #js_new_feed_comment .js_temp_new_feed_entry .media-body {
+
+    overflow: visible;
+}
+
+.js_parent_feed_entry.media
+, .js_parent_feed_entry .media-body {
+
+    overflow: visible;
+}
+
+.activity_feed_content_info {
+    margin-bottom: 40px;
+}
+/*
+.activity_feed_content_link {
+    margin-top: 40px;
+}
+.activity_feed_content_status {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .activity_feed_content_status  {
+    font-size: 21px;
+  }
+}*/
+
+
+
+.feed-type-photo .activity_feed_content_image img 
+, #js_new_feed_comment .js_temp_new_feed_entry .activity_feed_content_image img 
+{
+width: 650px!important;
+max-width: 650px!important;
+}
+
+.mac-feed-isotope .col-md-6 .feed-type-photo .activity_feed_content_image img 
+, .mac-feed-isotope #js_new_feed_comment .js_temp_new_feed_entry .activity_feed_content_image img {
+width: 325px!important; 
+max-width: 325px!important;
+}
+
+
+#js_new_feed_comment .js_temp_new_feed_entry .activity_feed_content_image a[target='_blank'] img 
+, .mac-feed-isotope #js_new_feed_comment .js_temp_new_feed_entry .activity_feed_content_image a[target='_blank'] img 
+{
+width: auto !important;
+max-width: auto !important;
+}
+
+.mac-feed-isotope .mac-feed-box {
+    padding: 0 4px
+}
+
+ /* move to layout.css 2751 - 2772 
+.activity_feed_content_image img {
+    max-width: 650px!important;
+}*/
+
+.mac-isotope2-pages .comment_mini_content_holder {
+    display: none !important
+}
+
+#js_controller_event_view .t_center .thickbox img {
+    max-width: 100%!important;
+    height: auto!important
+}
+#js_controller_event_view .well .extra_info_middot {
+float:left;margin-left:10px;
+}
+
+/* table price */
+.mac-price-table-chart:after,.mac-price-table-chart:after,.mac-price-table-pro:after,.mac-price-table-chart-three:after,.panel-heading li:after{content:" ";display:table;clear:both}
+.mac-price-table-chart .glyphicon{color:#9b9b9b}
+.mac-price-table-chart .panel-heading{font-size:22px;margin:0;padding:30px 20px;text-align:center}
+.mac-price-table-chart-one h3 span{display:block;font-size:13px;font-weight:300;letter-spacing:.5px;padding:5px 0 0;text-transform:uppercase}
+.mac-price-table-label{display:block;font-size:13px;letter-spacing:1px;margin:0 auto 10px;text-transform:uppercase}
+.mac-price-table-first-heading .mac-price-table-label{font-weight:600}
+.mac-price-table-figure{padding:20px 0 30px;position:relative}
+.mac-price-table-currency{display:inline-block;font-size:20px;font-weight:400;position:absolute;top:30px}
+.mac-price-table-amount{display:inline-block;font-size:50px;line-height:50px;padding:0 0 0 17px}
+.mac-price-table-foreword{display:block;font-size:14px;font-style:italic;padding:0}
+.mac-price-table-paragraph{font-size:14px;line-height:20px;margin:20px;text-align:center;}
+.mac-price-table-paragraph span{font-size:28px}
+.mac-price-table-chart .panel{margin:0}
+.mac-price-table-chart-two .panel,.mac-price-table-chart-two .panel-heading{border-radius:0}
+.mac-price-table-chart .panel-footer{padding:10px}
+.mac-price-table-chart-two .panel-footer{border-width:0 1px 1px 1px;margin:0 0 10px;padding:0;border-radius:0}
+.mac-price-table-chart .panel-collapse p{margin:10px 0}
+.mac-price-table-chart .img-responsive{max-width:inherit;width:100%}
+.mac-price-table-chart-one .mac-price-table-call a{font-size:18px}
+.col-md-2 .mac-price-table-call a{font-size:16px}
+.mac-price-table-chart-two .mac-price-table-call a{font-size:20px}
+.tooltip{font-family:'Karla',sans-serif}
+.mac-price-table-tooltip:hover{cursor:pointer}
+.mac-price-table-chart .modal p{margin:0}
+.mac-price-table-chart .modal-body{padding:0}
+.mac-price-table-chart .modal-body .thumbnail{border:0;border-radius:0;padding:0}
+.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}
+
+.mac-price-table-chart .panel-footer .btn{line-height:44px}
+
+.btn-wide{border:0;padding:0;border-radius:0;width:100%}
+.mac-price-table-pro .glyphicon{display:block;text-align:center}
+.mac-price-table-pro .glyphicon{color:#3a87ad}
+.mac-price-table-pro .x{color:#b94a61}
+.mac-price-table-pro .panel-heading{border-radius:0;min-height:260px}
+.mac-price-table-pro li li.list-group-item{border-left-width:1px;border-radius:0;min-height:45px}
+.mac-price-table-pro li.mac-price-table-first-heading li.list-group-item{border-left-width:1px;border-radius:0;min-height:45px}
+.mac-price-table-pro{list-style:none;margin:0;padding:0}
+.mac-price-table-pro li.mac-price-table-first-heading,.mac-price-table-pro li.mac-price-table-inner{padding:0}
+.mac-price-table-pro .panel-heading{border-right:1px solid #ddd;border-top:1px solid #ddd}
+.mac-price-table-pro li:first-child .panel-heading{border-left:1px solid #ddd}
+
+.mac-price-table-professional li.list-group-item .feature-hide{display:none}
+
+.mac-price-table-professional li .glyphicon{display:inline-block}
+.mac-price-table-professional li .mac-price-table-paragraph .glyphicon{display:block}
+.mac-price-table-professional li.list-group-item{text-align:center}
+@media screen and (min-width:0\0){.mac-price-table-currency{display:inline-block;font-size:20px;font-weight:400;position:relative;top:-30px}
+.mac-price-table-amount{font-size:65px;line-height:65px}
+.mac-price-table-chart .panel-footer{margin:0 0 20px;padding:0}
+}
+@media screen and (max-width:991px){.mac-price-table-chart-one{margin-bottom:20px}
+.tab-content{border-left:0}
+.mac-price-table-pro li li.list-group-item{border-left-width:1px;text-align:center}
+.mac-price-table-chart .panel-heading{padding:15px 10px}
+.mac-price-table-pro .panel-heading{border-left:1px solid #ddd;min-height:inherit}
+.mac-price-table-professional li.list-group-item .feature-hide{display:inline;padding:0 0 0 10px}
+.mac-price-table-pro li.mac-price-table-first-heading{display:none}
+.mac-price-table-pro .glyphicon{display:inline-block;text-align:center}
+.mac-price-table-foreword,.mac-price-table-label{display:inline-block;margin:0}
+.mac-price-table-foreword:before{content:" "}
+}
+@media screen and (max-width:767px){#pricely-align{display:inherit;margin:0 0 40px;vertical-align:none}
+}
+
+
+
+
+/* TO DO :: Test on all device/browser/os */
+.mejs-container .mejs-controls {
+    position: static;
+}
+
+
+/*
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+*/
+
+
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/*
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+}*/
+
+
+#js_controller_forum_index .badge {
+    font-weight: normal;
+}
+
+
+
+
+#js_is_user_profile .profile_online_status {
+    display: none;
+    left: 0;
+    top: -13px;
+}
+
+.page-timeline .mac-cover-pic-info {
+    display: none;
+}
+
+
+#section_menu2 {
+z-index: 1003;
+}
+
+
+
+.panel-body {
+    word-wrap:break-word;
+}
+
+
+.global_apps_title_padding ul li a {
+    font-size: 12px
+}
+
+
+.mac-panel-pages-apps .panel-body {
+    padding-left: 1px;
+    padding-right: 0;
+}
+
+
+.photo_hover_info {
+    display: block!important;
+    width: 100%;
+    font-weight: normal;
+    bottom:-3px;
+    height:50px;
+}
+
+
+
+

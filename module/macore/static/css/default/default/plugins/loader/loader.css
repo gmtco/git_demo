@@ -1,0 +1,18 @@
+#mac-loader{
+	background-color:#f9edbe;
+	border-color:#f0c36d;
+	left:-50px;
+	margin-left:50%;
+	padding-bottom:4px;
+	position:fixed;
+	top:0;
+	z-index:20001
+}
+#mac-loader span{
+	border:1px solid transparent;
+	border-radius:2px;
+	box-shadow:0 2px 4px rgba(0,0,0,0.2);
+	padding:4px 10px;
+	text-align:center;
+	white-space:nowrap
+}

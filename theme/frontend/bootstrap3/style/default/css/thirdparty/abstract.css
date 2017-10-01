@@ -1,0 +1,73 @@
+/*
+.abstractstore_search_form_subcat_container{
+	float:right;
+}
+*/
+
+#mac-store-filters-wrap {
+
+	margin-bottom:20px;
+
+}
+
+  .abstractbusiness_search_form_cat_select 
+, .abstractbusiness_search_form_country_select 
+, .abstractbusiness_search_form_sub_select 
+, #js_block_border_abstractbusiness_search_form input[type='text']
+, #js_block_border_abstractauction_search_form input[type='text']
+, .abstractauction_search_form_cat_select
+, .abstractauction_search_form_sub_select
+, .abstractauction_search_form_country_select
+, #abstractauction_search_formauc_order {
+
+	max-width: 100%!important;
+	width:100%!important;
+
+}
+
+#js_block_border_abstractbusiness_search_form .btn
+, #js_block_border_abstractauction_search_form .btn {
+
+	margin-left:4px;
+
+}
+
+#js_block_border_abstractbusiness_main_locationscities h3 {
+	font-size: 16px
+}
+
+.alert:empty {
+	display: none;
+}
+
+.panel .icheckbox_flat-mac
+, .panel .iradio_flat-mac /*
+, #abstractauction_form_container .icheckbox_flat-mac
+, #abstractauction_form_container .iradio_flat-mac */{
+    float: left;
+    margin: 0 10px 0 4px;
+}
+
+#abstractauction_form_container table tr td {
+	padding:5px
+}
+
+body #abstractbusiness-checkin-search {
+	font-size: 14px!important;
+}
+
+body #thickbox_shipping_selection .form-control {
+	max-width: 100px!important; float:left;
+}
+
+body #thickbox_shipping_selection {
+	height: 300px!important
+}
+body #thickbox_shipping_selection table tr td{
+width:46%;padding:1%;
+}
+
+
+
+
+

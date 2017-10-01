@@ -1,0 +1,338 @@
+#js_is_user_profile .profile_image .p_4 { /* CHANGE USER PIC */
+background: #000;
+right: 52px;
+top: -84px;
+}
+
+.profile_image .profile_image_holder a img {
+width:100%;
+height:auto
+}
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_image_holder {
+height:120px;
+width:120px;
+left:0;
+top:-160px; /* before 200 */
+margin-bottom:6px;
+position:absolute;
+text-align:center;
+}
+
+body.page-no-timeline #js_is_user_profile .profile_image_holder a img {
+height:110px;
+width:110px;
+border-radius:120px
+}
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 {
+width:auto!important;
+position:absolute;
+left:-50px;
+top:-145px; /* before 185 */
+}
+
+
+
+body.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 {
+position:absolute;
+left:-50px;
+top:-85px;  /* before 125 */
+}
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 a,
+body.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 a {
+color:#fff;
+text-shadow:0 1px 0 rgba(0,0,0,0.7)
+}
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 a:hover
+, body.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 a:hover {
+color:#000;
+text-shadow:none;
+text-decoration: none;
+}
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+position:absolute;
+left:-50px;
+
+top:-125px; /* 165 */
+
+text-shadow:0 1px 0 rgba(0,0,0,0.7);
+padding:2px 5px
+}
+
+
+
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 {
+position:absolute;
+right:0;
+top:-160px
+}
+
+
+@media (min-width: 1200px) {
+	/* .mac-section-menu-right-zero */
+	body.page-profile-index.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2,
+	body.page-pages-view.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 
+	{
+	right:-280px
+	}
+}
+
+
+body.page-no-timeline #js_is_user_profile .profile_breadcrumb {
+display:none
+}
+#js_is_user_profile .profile_header #section_menu2 {
+position:absolute;
+right:0
+}
+#js_is_user_profile #section_menu2 {
+bottom:5px;
+top:20px
+}
+
+
+/*
+body.page-friend-profile.page-no-timeline #js_is_user_profile .profile_image_holder
+{
+top: -280px;
+}
+body.page-friend-profile.page-no-timeline #js_is_user_profile .profile_header_inner h1 {
+left: -50px;
+top: -265px;
+}
+body.page-friend-profile.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+left: -56px;
+top: -245px;
+}
+*/
+
+
+
+/* fix  */
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_image_holder 
+{
+top:-160px;
+}
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_header_inner h1 
+{
+top:-145px
+}
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_header_inner .profile_info {
+top:-125px;
+}
+body.page-no-timeline.page-profile-index #js_is_user_profile .profile_header_inner #section_menu2 {
+top:-120px
+}
+
+
+	 
+
+
+/* end */
+
+/* fix after adding sticky footer */
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info
+{
+top: -130px;
+}
+
+body.page-is-page-profile.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 
+{
+top: -150px;
+}
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_image_holder
+{
+top: -160px;
+} 
+/* end sticky footer */
+
+#js_is_user_profile .profile_header{
+	min-height: 0!important
+}
+
+
+/*
+@media (min-width: 768px) and (max-width: 1023px) {
+#js_is_user_profile .profile_image_holder {
+height:100px;
+width:100px;
+left:20px;
+top:-160px
+}
+}
+*/
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+	body.page-no-timeline.page-is-profile #js_is_user_profile .profile_image_holder {
+	 left: 0px;/* new */
+	}
+}
+@media (min-width: 992px) and (max-width: 1999px) {
+	body.page-no-timeline.page-is-profile #js_is_user_profile .profile_image_holder {
+	 left: -150px;/* new */
+	}
+	body.page-no-timeline.page-is-profile #js_is_user_profile .profile_header_inner h1
+	, body.page-no-timeline.page-is-profile #js_is_user_profile .profile_header_inner .profile_info
+	{
+		left: -20px;
+	}
+}
+@media (min-width: 1200px) {
+	body.page-no-timeline.page-is-profile #js_is_user_profile .profile_image_holder
+	, body.page-no-timeline.page-is-page-profile #js_is_user_profile .profile_image_holder
+	{
+	 left: -190px;/* new */
+	}
+}
+
+
+
+
+
+/*
+@media (max-width: 1023px) {
+body.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 {
+right:0;
+top:0
+}
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1,
+body.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+position:static;
+left:auto;
+right:auto;
+top:auto;
+bottom:auto
+}
+
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1,
+body.page-no-timeline #js_is_user_profile .profile_header_inner h1 a,
+body.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info {
+color:#222;
+text-shadow:none
+}
+}*/
+
+/*
+@media (min-width: 768px) {
+.mac-cover-wrap {
+height:400px
+}
+}
+
+@media (min-width: 1200px) {
+.mac-cover-wrap {
+height:400px
+}
+}
+
+@media (max-width: 1199px) {
+.mac-cover-gradient {
+display:none!important
+}
+}
+*/
+
+@media (max-width: 767px) {
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_header_inner .profile_info
+{
+top: -100px;
+left:130px;
+}
+
+#js_is_user_profile .profile_image .p_4 {
+
+right: auto;
+left:10px;
+}
+
+
+#js_is_user_profile .profile_image_holder {
+height:100px;
+width:100px;
+left:20px;
+top:-160px
+}
+
+/*
+.mac-cover-wrap {
+height:400px
+}
+*/
+
+.mac-user-profile-pic {
+margin-left:-30px;
+margin-right:-30px;
+margin-top:-30px
+}
+/*
+body.page-is-page-profile.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 {
+left: 130px;
+top: -140px;
+}*/
+body.page-is-page-profile.page-no-timeline #js_is_user_profile #js_is_page .profile_header h1 a{
+color:#222!important;
+}
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_image_holder {
+top:-120px;
+}
+
+body.page-is-page-profile.page-no-timeline .cover_photo_link{
+	margin-top: 50px
+}
+
+body.page-is-page-profile.page-no-timeline #js_is_user_profile .profile_header_inner #section_menu2 {
+top:0
+}
+
+/*
+#js_photo_cover_position {
+top:0!important
+}
+*/
+}
+
+/*
+@media (max-width: 767px) {
+	body.page-no-timeline.page-profile-index #js_is_user_profile .profile_image_holder 
+	, 
+	{
+	top: -123px;
+	left:-20px;
+	}
+}*/
+
+
+@media (max-width: 991px) {
+    body .profile_header_inner .profile_info 
+    , body .profile_header_inner h1 {
+    position:static !important;
+    }
+    body .profile_header_inner h1 a{
+        color:#222!important;
+    }
+	body.page-no-timeline #js_is_user_profile .profile_image_holder a img {
+	height:90px;
+	width:90px;
+	border-radius:90px
+	}
+	body.page-no-timeline.page-profile-index #js_is_user_profile .profile_image_holder 
+	{
+	top:-120px;
+	left:-20px;
+	}
+}
