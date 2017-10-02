@@ -15,7 +15,7 @@ if (version_compare(phpversion(), '5', '<') === true)
 }
 
 ob_start();
-
+// the token changed when requires
 /**
  * Key to include phpFox
  *
