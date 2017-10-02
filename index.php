@@ -39,7 +39,13 @@ define('PHPFOX_START_TIME', array_sum(explode(' ', microtime())));
 
 // Require phpFox Init
 require(PHPFOX_DIR . 'include' . PHPFOX_DS . 'init.inc.php');
-
+// Huan dang sua dung pha
+// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha
+// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha
+// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha
+// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha
+// Huan dang sua dung pha// Huan dang sua dung pha// Huan dang sua dung pha
+// Huan dang sua dung pha// Huan dang sua dung pha//// Huan dang sua dung pha// Huan dang sua dung pha
 Phpfox::run();
 // here agian
 ob_end_flush();
