@@ -41,7 +41,7 @@ define('PHPFOX_START_TIME', array_sum(explode(' ', microtime())));
 require(PHPFOX_DIR . 'include' . PHPFOX_DS . 'init.inc.php');
 
 Phpfox::run();
-
+// here agian
 ob_end_flush();
-
+/////////////////////////////////////// len di may
 ?>
